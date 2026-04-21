@@ -1,0 +1,268 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "Verónica Andreo es Licenciada en Ciencias Biológicas. Tiene un Doctorado en Ciencias Biológicas y una Maestría en Aplicaciones de la Información Espacial. Se desempeña como investigadora adjunta de CONICET y docente en el Instituto Gulich - Agencia Espacial Argentina (CONAE) en Córdoba, Argentina. Su trabajo de investigación apunta a las aplicaciones de la información espacial y las geotecnologías para problemas relacionados con la ecología de las enfermedades zoonóticas y transmitidas por vectores y la salud pública. Específicamente, se centra en encontrar los factores ambientales determinantes de la distribución y ocurrencia de enfermedades transmitidas por vectores. Está interesada principalmente en aquellas características ambientales que pueden derivarse mediante el análisis de imágenes satelitales, series temporales y técnicas basadas en SIG.\nVerónica forma parte del proyecto GRASS y desde 2021 se desempeña como coordinadora del equipo de desarrollo. Es una ferviente promotora del software libre y de código abierto para geomática y miembro de OSGEO, Open Source Geospatial Foundation. Fue responsable del Comité de Programa para la conferencia internacional FOSS4G 2021, organizada por Argentina. Entre otras actividades, ha participado como mentora de GRASS en el concurso Google Code-In introduciendo a estudiantes de secundaria en el mundo del código abierto y Google Summer of Code para estudiantes universitarios y desarrolladores.\n\n\n\n\nEcología de enfermedades zoonóticas y vectoriales\nSeries temporales de datos satelitales\nAnálisis de imágenes satelitales\nSistemas de Información Geográfica (SIG)\nModelos de Distribución de Especies (SDM)\nCiencia de datos\nSoftware libre y de código abierto\n\n\n\n\n\nDoctora en Ciencias Biológicas. Universidad Nacional de Río Cuarto. 2012.\nMagíster en Aplicaciones Espaciales de Alerta y Respuesta Temprana a Emergencias. Universidad Nacional de Córdoba. 2015.\nLicenciada en Ciencias Biológicas. Universidad Nacional de Río Cuarto. 2005."
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "Verónica Andreo es Licenciada en Ciencias Biológicas. Tiene un Doctorado en Ciencias Biológicas y una Maestría en Aplicaciones de la Información Espacial. Se desempeña como investigadora del CONICET y docente en el Instituto Gulich - Agencia Espacial Argentina (CONAE) en Córdoba, Argentina. Su investigación se centra en descubrir los factores ambientales determinantes de los brotes de enfermedades transmitidas por vectores. stá interesada principalmente en aquellas características ambientales que pueden derivarse mediante el análisis de imágenes satelitales, series temporales y técnicas basadas en SIG.\nVerónica forma parte del equipo de desarrollo de GRASS y desde 2021 se desempeña como coordinadora del equipo. Es una ferviente promotora del software libre y de código abierto para geomática (FOSS4G). Fue la presidenta del Comité de Programa para la conferencia internacional FOSS4G 2021, organizada por Argentina. Entre otras actividades, ha participado como mentora de GRASS en el concurso Google Code-In introduciendo a estudiantes de secundaria en el mundo del código abierto y Google Summer of Code para estudiantes universitarios y desarrolladores."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "Remote sensing time series\nImage analysis\nGIS\nSDM\nVector-borne diseases\nFree and Open Source Software"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "PhD in Biological Sciences. National University of Río Cuarto. 2012.\nMSc in Spatial Applications for Early Warning and Response to Emergencies. National University of Córdoba. 2015.\nBiologist. National University of Río Cuarto. 2005."
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "Jornadas 360 - Biología",
+    "section": "",
+    "text": "Show in new tab"
+  },
+  {
+    "objectID": "introduction.html#presentación",
+    "href": "introduction.html#presentación",
+    "title": "Jornadas 360 - Biología",
+    "section": "",
+    "text": "Show in new tab"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología",
+    "section": "",
+    "text": "¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS y un pequeño ejemplo con rutinas de Python y GRASS en Google Colab."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología",
+    "section": "",
+    "text": "¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS y un pequeño ejemplo con rutinas de Python y GRASS en Google Colab."
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología",
+    "section": "Contents",
+    "text": "Contents\n\nPresentación\nBiología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología\n\nMotivación\nGeografía de la salud\nEcología de las enfermedades\nIntroducción al SR y los SIG\n\n¿Qué es el SR o Teledetección?\n¿Qué es un SIG?\n\nSR y ecología de enfermedades\n\nResolución vs escala\n¿Cómo utilizamos el SR?\nEjemplos\n\nBrechas, desafíos y oportunidades\nConclusiones\n\n\n\nTaller\nEjercicio Práctico de estimación de área quemada\n\nEstimación de área quemada en QGIS\nEstimación de área quemada en GEE\nEstimación de área quemada con Python y GRASS en Google Colab"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#references",
+    "href": "presentacion_jornadas360.html#references",
+    "title": "Biología desde el espacio",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nAguirre, E., Andreo, V., Porcasi, X., Lopez, L., Guzman, C., González, P., and Scavuzzo, C. M. (2021), “Implementation of a proactive system to monitor Aedes aegypti populations using open access historical and forecasted meteorological data,” Ecological Informatics, 64, 101351. https://doi.org/10.1016/j.ecoinf.2021.101351.\n\n\nAndreo, V., Glass, G., Shields, T., Provensal, C., and Polop, J. (2011), “Modeling Potential Distribution of Oligoryzomys longicaudatus, the Andes Virus (Genus: Hantavirus) Reservoir, in Argentina,” EcoHealth, 8, 332–348.\n\n\nAndreo, V., Izquierdo-Verdiguier, E., Zurita-Milla, R., Rosa, R., Rizzoli, A., and Papa, A. (2018), “Identifying Favorable Spatio-Temporal Conditions for West Nile Virus Outbreaks by Co-Clustering of Modis LST Indices Time Series,” in IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, Valencia: IEEE, pp. 4670–4673. https://doi.org/10.1109/IGARSS.2018.8519542.\n\n\nAndreo, V., Neteler, M., Rocchini, D., Provensal, C., Levis, S., Porcasi, X., Rizzoli, A., Lanfri, M., Scavuzzo, M., Pini, N., Enria, D., and Polop, J. (2014), “Estimating Hantavirus Risk in Southern Argentina: A GIS-Based Approach Combining Human Cases and Host Distribution,” Viruses, 6, 201–222. https://doi.org/10.3390/v6010201.\n\n\nAndreo, V., Porcasi, X., Guzman, C., Lopez, L., and Scavuzzo, C. M. (2021), “Spatial Distribution of Aedes aegypti Oviposition Temporal Patterns and Their Relationship with Environment and Dengue Incidence,” Insects, 12, 919. https://doi.org/10.3390/insects12100919.\n\n\nAndreo, V., Rosa, J., Ramos, K., and Salomón, O. D. (2022), “Ecological characterization of a cutaneous leishmaniasis outbreak through remotely sensed land cover changes,” Geospatial Health, 17. https://doi.org/10.4081/gh.2022.1033.\n\n\nCarrasco-Escobar, G., Moreno, M., Fornace, K., Herrera-Varela, M., Manrique, E., and Conn, J. E. (2022), “The use of drones for mosquito surveillance and control,” Parasites & Vectors, 15, 473. https://doi.org/10.1186/s13071-022-05580-5.\n\n\nGeorganos, S., Grippa, T., Lennert, M., Vanhuysse, S., and Johnson, B. A. (2018), “Scale Matters: Spatially Partitioned Unsupervised Segmentation Parameter Optimization for Large and Heterogeneous Satellite Images,” 23.\n\n\nGrippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N., Wolff, E., Grippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N., and Wolff, E. (2017), “An Open-Source Semi-Automated Processing Chain for Urban Object-Based Classification,” Remote Sensing, 9, 358. https://doi.org/10.3390/rs9040358.\n\n\nHamesse, C., Andreo, V., Rodriguez Gonzalez, C., Beumier, C., Rubio, J., Porcasi, X., Lopez, L., Guzman, C., Haelterman, R., Shimoni, M., and Scavuzzo, C. M. (2023), “Ovitrap Monitor - Online application for counting mosquito eggs and visualisation toolbox in support of health services,” Ecological Informatics, 75, 102105. https://doi.org/10.1016/j.ecoinf.2023.102105.\n\n\nKasampalis, D. A., Alexandridis, T. K., Deva, C., Challinor, A., Moshou, D., and Zalidis, G. (2018), “Contribution of remote sensing on crop models: A review,” Journal of Imaging, 4, 52. https://doi.org/10.3390/jimaging4040052.\n\n\nLambin, E. F., Tran, A., Vanwambeke, S. O., Linard, C., and Soti, V. (2010), “Pathogenic landscapes: Interactions between land, people, disease vectors, and their animal hosts,” International Journal of Health Geographics, 9, 54. https://doi.org/10.1186/1476-072X-9-54.\n\n\nLechner, A. M., Foody, G. M., and Boyd, D. S. (2020), “Applications in Remote Sensing to Forest Ecology and Management,” One Earth, 2, 405–412. https://doi.org/10.1016/j.oneear.2020.05.001.\n\n\nLeitão, P. J., and Santos, M. J. (2019), “Improving models of species ecological niches: A remote sensing overview,” Frontiers in Ecology and Evolution, 7. https://doi.org/10.3389/fevo.2019.00009.\n\n\nMeng, R., Gao, R., Zhao, F., Huang, C., Sun, R., Lv, Z., and Huang, Z. (2022), “Landsat-based monitoring of southern pine beetle infestation severity and severity change in a temperate mixed forest,” Remote Sensing of Environment, 269, 112847. https://doi.org/10.1016/j.rse.2021.112847.\n\n\nMetz, M., Andreo, V., and Neteler, M. (2017), “A New Fully Gap-Free Time Series of Land Surface Temperature from MODIS LST Data,” Remote Sensing, 9, 1333. https://doi.org/10.3390/rs9121333.\n\n\nParselia, E., Kontoes, C., Tsouni, A., Hadjichristodoulou, C., Kioutsioukis, I., Magiorkinis, G., and Stilianakis, N. I. (2019), “Satellite Earth Observation Data in Epidemiological Modeling of Malaria, Dengue and West Nile Virus: A Scoping Review,” Remote Sensing, 11, 1862. https://doi.org/10.3390/rs11161862.\n\n\nPearson, R. G., and Dawson, T. P. (2003), “Predicting the impacts of climate change on the distribution of species: Are bioclimate envelope models useful?” Global Ecology and Biogeography, 12, 361–371. https://doi.org/10.1046/j.1466-822X.2003.00042.x.\n\n\nPorcasi, X., Rotela, C. H., Introini, M. V., Frutos, N., Lanfri, S., Peralta, G., De Elia, E. A., Lanfri, M. A., and Scavuzzo, C. M. (2012), “An operative dengue risk stratification system in Argentina based on geospatial technology,” Geospatial Health, 6, S31–S42. https://doi.org/10.4081/gh.2012.120.\n\n\nRodriguez Gonzalez, C., Guzman, C., and Andreo, V. (2023), “Using VHR satellite imagery, OBIA and landscape metrics to improve mosquito surveillance in urban areas,” Ecological Informatics, 77, 102221. https://doi.org/10.1016/j.ecoinf.2023.102221.\n\n\nRumiano, F., Wielgus, E., Miguel, E., Chamaillé-Jammes, S., Valls-Fox, H., Cornélis, D., Garine-Wichatitsky, M. D., Fritz, H., Caron, A., and Tran, A. (2020), “Remote sensing of environmental drivers influencing the movement ecology of sympatric wild and domestic ungulates in semi-arid savannas, a review,” Remote Sensing, 12. https://doi.org/10.3390/rs12193218.\n\n\nTorresani, M., Rocchini, D., Alberti, A., Moudrý, V., Heym, M., Thouverai, E., Kacic, P., and Tomelleri, E. (2023), “LiDAR GEDI derived tree canopy height heterogeneity reveals patterns of biodiversity in forest ecosystems,” Ecological Informatics, 102082. https://doi.org/10.1016/j.ecoinf.2023.102082.\n\n\nViana, J., Santos, J. V., Neiva, R. M., Souza, J., Duarte, L., Teodoro, A. C., and Freitas, A. (2017), “Remote Sensing in Human Health: A 10-Year Bibliometric Analysis,” Remote Sensing, 9, 1225. https://doi.org/10.3390/rs9121225.\n\n\nWang, D., Shao, Q., and Yue, H. (2019), “Surveying Wild Animals from Satellites, Manned Aircraft and Unmanned Aerial Systems (UASs): A Review,” Remote Sensing, 11, 1308. https://doi.org/10.3390/rs11111308."
+  },
+  {
+    "objectID": "notebook_intro.html",
+    "href": "notebook_intro.html",
+    "title": "Part 1: Intro to GRASS GIS",
+    "section": "",
+    "text": "GRASS GIS (Geographic Resources Analysis Support System), a FOSS suite used for geospatial data management and analysis, image processing, graphics and maps, spatial modeling, and visualization.\nOriginally developed by the U.S. Army Construction Engineering Research Laboratories for land management and environmental planning (1982-1995).\nFirst User Manual published on July 29th, 1983… GRASS is becoming 40 this year!\nMore history: https://grass.osgeo.org/about/history/\nFree and open source, you can use, modify, improve, share\nStrong user community, commercial support\nLarge amount of tools: 500+ core modules, 400+ addons\nGUI and CLI interfaces\nPython API and libraries - the latest grass.jupyter library can be tried online\nConnection with R, QGIS, WPS, etc.\nDifferent data types supported: raster (including satellite imagery), 3D raster or voxel, vector and space-time datasets\n\n\n\nAs of version 8.0, GRASS has modified its startup to make it more user friendly:\n\n\n\n\n\nFrom the Data catalog tab you can manage several actions and if you do not yet have imported data into the GRASS database, the software creates the directory structure or database automatically.\n\n\n\n\nGRASS database (directory with projects): When running GRASS GIS for the first time, a folder named “grassdata” is automatically created. Depending on the operating system, it can be found in $HOME (*nix) or My Documents (MS Windows).\nLocation (a project): A location is defined by its coordinate reference system (CRS). The location that is automatically created is in WGS84 (EPSG:4326). If you have data in another CRS, you should ideally create a new location.\nMapset (a subproject): Each location can have many mapsets to manage different aspects or sub-regions of a project. When creating a new location, GRASS GIS automatically creates a special mapset called PERMANENT where the central data of the project (e.g., base maps, road network, dem, etc.) can be stored.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMore info: https://grass.osgeo.org/grass-stable/manuals/grass_database.html.\n\n\n\n\n\nAnother fundamental concept of GRASS GIS (and very useful when working with raster data) is that of the computational region. It refers to the boundary configuration of the analysis area and spatial resolution (raster). The computational region can be defined and modified with the command g.region to the extent of a vector map, a raster or manually to some area of interest. The output raster maps will have an extent and spatial resolution equal to the computational region, while vector maps are always processed at their original extent.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor more details, see the wiki on Computational Region.\n\n\n\n\n\nGRASS has more than 500 modules for the most varied tasks:\n\n\n\nPrefix\nFunction class\nType of command\nExample\n\n\n\n\ng.*\ngeneral\ngeneral data management\ng.rename: renames map\n\n\nd.*\ndisplay\ngraphical output\nd.rast: display raster map\n\n\nr.*\nraster\nraster processing\nr.mapcalc: map algebra\n\n\nv.*\nvector\nvector processing\nv.clean: topological cleaning\n\n\ni.*\nimagery\nimagery processing\ni.pca: Principal Components Analysis on imagery group\n\n\nr3.*\nvoxel\n3D raster processing\nr3.stats: voxel statistics\n\n\ndb.*\ndatabase\ndatabase management\ndb.select: select value(s) from table\n\n\nps.*\npostscript\nPostScript map creation\nps.map: PostScript map creation\n\n\nt.*\ntemporal\nspace-time datasets\nt.rast.aggregate: raster time series aggregation\n\n\n\nExtensions or add-ons can be installed from the central GitHub repository or from other users’ GitHub (or similar repositories) using the command g.extension. For example:\n # install an extension from the GRASS GIS repository\n g.extension extension=r.hants\n \n # install an extension from another GitHub repository\n g.extension extension=r.change.stats \\\n   url=https://github.com/mundialis/r.change.stats"
+  },
+  {
+    "objectID": "notebook_intro.html#grass-gis-general-stuff",
+    "href": "notebook_intro.html#grass-gis-general-stuff",
+    "title": "Part 1: Intro to GRASS GIS",
+    "section": "",
+    "text": "GRASS GIS (Geographic Resources Analysis Support System), a FOSS suite used for geospatial data management and analysis, image processing, graphics and maps, spatial modeling, and visualization.\nOriginally developed by the U.S. Army Construction Engineering Research Laboratories for land management and environmental planning (1982-1995).\nFirst User Manual published on July 29th, 1983… GRASS is becoming 40 this year!\nMore history: https://grass.osgeo.org/about/history/\nFree and open source, you can use, modify, improve, share\nStrong user community, commercial support\nLarge amount of tools: 500+ core modules, 400+ addons\nGUI and CLI interfaces\nPython API and libraries - the latest grass.jupyter library can be tried online\nConnection with R, QGIS, WPS, etc.\nDifferent data types supported: raster (including satellite imagery), 3D raster or voxel, vector and space-time datasets\n\n\n\nAs of version 8.0, GRASS has modified its startup to make it more user friendly:\n\n\n\n\n\nFrom the Data catalog tab you can manage several actions and if you do not yet have imported data into the GRASS database, the software creates the directory structure or database automatically.\n\n\n\n\nGRASS database (directory with projects): When running GRASS GIS for the first time, a folder named “grassdata” is automatically created. Depending on the operating system, it can be found in $HOME (*nix) or My Documents (MS Windows).\nLocation (a project): A location is defined by its coordinate reference system (CRS). The location that is automatically created is in WGS84 (EPSG:4326). If you have data in another CRS, you should ideally create a new location.\nMapset (a subproject): Each location can have many mapsets to manage different aspects or sub-regions of a project. When creating a new location, GRASS GIS automatically creates a special mapset called PERMANENT where the central data of the project (e.g., base maps, road network, dem, etc.) can be stored.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMore info: https://grass.osgeo.org/grass-stable/manuals/grass_database.html.\n\n\n\n\n\nAnother fundamental concept of GRASS GIS (and very useful when working with raster data) is that of the computational region. It refers to the boundary configuration of the analysis area and spatial resolution (raster). The computational region can be defined and modified with the command g.region to the extent of a vector map, a raster or manually to some area of interest. The output raster maps will have an extent and spatial resolution equal to the computational region, while vector maps are always processed at their original extent.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor more details, see the wiki on Computational Region.\n\n\n\n\n\nGRASS has more than 500 modules for the most varied tasks:\n\n\n\nPrefix\nFunction class\nType of command\nExample\n\n\n\n\ng.*\ngeneral\ngeneral data management\ng.rename: renames map\n\n\nd.*\ndisplay\ngraphical output\nd.rast: display raster map\n\n\nr.*\nraster\nraster processing\nr.mapcalc: map algebra\n\n\nv.*\nvector\nvector processing\nv.clean: topological cleaning\n\n\ni.*\nimagery\nimagery processing\ni.pca: Principal Components Analysis on imagery group\n\n\nr3.*\nvoxel\n3D raster processing\nr3.stats: voxel statistics\n\n\ndb.*\ndatabase\ndatabase management\ndb.select: select value(s) from table\n\n\nps.*\npostscript\nPostScript map creation\nps.map: PostScript map creation\n\n\nt.*\ntemporal\nspace-time datasets\nt.rast.aggregate: raster time series aggregation\n\n\n\nExtensions or add-ons can be installed from the central GitHub repository or from other users’ GitHub (or similar repositories) using the command g.extension. For example:\n # install an extension from the GRASS GIS repository\n g.extension extension=r.hants\n \n # install an extension from another GitHub repository\n g.extension extension=r.change.stats \\\n   url=https://github.com/mundialis/r.change.stats"
+  },
+  {
+    "objectID": "notebook_intro.html#grass",
+    "href": "notebook_intro.html#grass",
+    "title": "Part 1: Intro to GRASS GIS",
+    "section": "GRASS + ",
+    "text": "GRASS + \nThere are different Python libraries delivered with GRASS GIS, we’ll use 2 of them:\n\ngrass.script which provides Python interface to launch GRASS GIS modules in scripts\ngrass.jupyter which offers classes and setup functions for running GRASS GIS in Jupyter Notebooks\n\nOther Python libraries delivered with GRASS GIS include: pygrass, the temporal framework, the testing framework, among others.\nWe can use Python within GRASS GUI, within Jupyter notebooks, or from our preferred IDE. See the options within the GUI:\n\n\n\n\n\n\n\nNote\n\n\n\nSee https://grass.osgeo.org/grass-stable/manuals/libpython/index.html for further details."
+  },
+  {
+    "objectID": "notebook_intro.html#grass-through-rgrass-package",
+    "href": "notebook_intro.html#grass-through-rgrass-package",
+    "title": "Part 1: Intro to GRASS GIS",
+    "section": "GRASS +  through rgrass package",
+    "text": "GRASS +  through rgrass package\nWe can use R within a GRASS GIS session or use GRASS GIS within an R session. We’ll explore this further in the last part of this session."
+  },
+  {
+    "objectID": "notebook_intro.html#demo-session-overview",
+    "href": "notebook_intro.html#demo-session-overview",
+    "title": "Part 1: Intro to GRASS GIS",
+    "section": "Demo session overview",
+    "text": "Demo session overview\nHabitat suitability mapping for the Asian tiger mosquito in Northern Italy based on variables derived from daily LST data\n\nGRASS\n\nImport species records\nCreate random background points\nCreate different environmental layers from daily LST data\n\nR\n\nRead data from GRASS into R\nModel species distribution\nModel evaluation\nVisualization of results\n\n\n\n\n\n\n\n\nData for the session\n\n\nRecords of Aedes albopictus (Asian tiger mosquito) in Northern Italy downloaded from GBIF\nAverage daily MODIS LST reconstructed by mundialis GmbH & Co. KG based on Metz et al. (2017):\n\n1 km spatial resolution\nConverted to Celsius degrees\n\n\n\n\n\nGet the sample location\n\nCreate a folder named grass_ncsu_2023\nWithin grass_ncsu_2023 create a folder named grassdata\nDownload and unzip eu_laea location with LST mapset and unzip within your grassdata folder\nDownload mosquito data and drop it within grass_ncsu_2023\n\nThe grass_ncsu_2023 folder’s tree should look like this:\n  grass_ncsu_2023/\n  ├── aedes_albopictus.gpkg\n  └── grassdata\n      └── eu_laea\n          ├── italy_LST_daily\n          └── PERMANENT"
+  },
+  {
+    "objectID": "notebook_intro.html#other-very-useful-links",
+    "href": "notebook_intro.html#other-very-useful-links",
+    "title": "Part 1: Intro to GRASS GIS",
+    "section": "Other (very) useful links",
+    "text": "Other (very) useful links\n\nGRASS intro workshop held at NCSU\nUnleash the power of GRASS GIS at US-IALE 2017\nTemporal data processing wiki\nGRASS GIS and R for time series processing wiki\nGRASS GIS temporal workshop at NCSU\nGRASS GIS course in Jena\nGRASS GIS course IRSAE\nGRASS GIS course in Argentina"
+  },
+  {
+    "objectID": "presentation.html#references",
+    "href": "presentation.html#references",
+    "title": "Environmental drivers of vector-borne and zoonotic diseases",
+    "section": "References",
+    "text": "References\n\n\nAguirre, E., Andreo, V., Porcasi, X., Lopez, L., Guzman, C., González, P., and Scavuzzo, C. M. (2021), “Implementation of a proactive system to monitor Aedes aegypti populations using open access historical and forecasted meteorological data,” Ecological Informatics, 64, 101351. https://doi.org/10.1016/j.ecoinf.2021.101351.\n\n\nAndreo, V., Glass, G., Shields, T., Provensal, C., and Polop, J. (2011), “Modeling Potential Distribution of Oligoryzomys longicaudatus, the Andes Virus (Genus: Hantavirus) Reservoir, in Argentina,” EcoHealth, 8, 332–348.\n\n\nAndreo, V., Izquierdo-Verdiguier, E., Zurita-Milla, R., Rosa, R., Rizzoli, A., and Papa, A. (2018), “Identifying Favorable Spatio-Temporal Conditions for West Nile Virus Outbreaks by Co-Clustering of Modis LST Indices Time Series,” in IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, Valencia: IEEE, pp. 4670–4673. https://doi.org/10.1109/IGARSS.2018.8519542.\n\n\nAndreo, V., Neteler, M., Rocchini, D., Provensal, C., Levis, S., Porcasi, X., Rizzoli, A., Lanfri, M., Scavuzzo, M., Pini, N., Enria, D., and Polop, J. (2014), “Estimating Hantavirus Risk in Southern Argentina: A GIS-Based Approach Combining Human Cases and Host Distribution,” Viruses, 6, 201–222. https://doi.org/10.3390/v6010201.\n\n\nAndreo, V., Porcasi, X., Guzman, C., Lopez, L., and Scavuzzo, C. M. (2021), “Spatial Distribution of Aedes aegypti Oviposition Temporal Patterns and Their Relationship with Environment and Dengue Incidence,” Insects, 12, 919. https://doi.org/10.3390/insects12100919.\n\n\nAndreo, V., Rosa, J., Ramos, K., and Salomón, O. D. (2022), “Ecological characterization of a cutaneous leishmaniasis outbreak through remotely sensed land cover changes,” Geospatial Health, 17. https://doi.org/10.4081/gh.2022.1033.\n\n\nCarrasco-Escobar, G., Moreno, M., Fornace, K., Herrera-Varela, M., Manrique, E., and Conn, J. E. (2022), “The use of drones for mosquito surveillance and control,” Parasites & Vectors, 15, 473. https://doi.org/10.1186/s13071-022-05580-5.\n\n\nGeorganos, S., Grippa, T., Lennert, M., Vanhuysse, S., and Johnson, B. A. (2018), “Scale Matters: Spatially Partitioned Unsupervised Segmentation Parameter Optimization for Large and Heterogeneous Satellite Images,” 23.\n\n\nGrippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N., Wolff, E., Grippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N., and Wolff, E. (2017), “An Open-Source Semi-Automated Processing Chain for Urban Object-Based Classification,” Remote Sensing, 9, 358. https://doi.org/10.3390/rs9040358.\n\n\nKasampalis, D. A., Alexandridis, T. K., Deva, C., Challinor, A., Moshou, D., and Zalidis, G. (2018), “Contribution of remote sensing on crop models: A review,” Journal of Imaging, 4, 52. https://doi.org/10.3390/jimaging4040052.\n\n\nLambin, E. F., Tran, A., Vanwambeke, S. O., Linard, C., and Soti, V. (2010), “Pathogenic landscapes: Interactions between land, people, disease vectors, and their animal hosts,” International Journal of Health Geographics, 9, 54. https://doi.org/10.1186/1476-072X-9-54.\n\n\nLechner, A. M., Foody, G. M., and Boyd, D. S. (2020), “Applications in Remote Sensing to Forest Ecology and Management,” One Earth, 2, 405–412. https://doi.org/10.1016/j.oneear.2020.05.001.\n\n\nLeitão, P. J., and Santos, M. J. (2019), “Improving models of species ecological niches: A remote sensing overview,” Frontiers in Ecology and Evolution, 7. https://doi.org/10.3389/fevo.2019.00009.\n\n\nMeng, R., Gao, R., Zhao, F., Huang, C., Sun, R., Lv, Z., and Huang, Z. (2022), “Landsat-based monitoring of southern pine beetle infestation severity and severity change in a temperate mixed forest,” Remote Sensing of Environment, 269, 112847. https://doi.org/10.1016/j.rse.2021.112847.\n\n\nMetz, M., Andreo, V., and Neteler, M. (2017), “A New Fully Gap-Free Time Series of Land Surface Temperature from MODIS LST Data,” Remote Sensing, 9, 1333. https://doi.org/10.3390/rs9121333.\n\n\nParselia, E., Kontoes, C., Tsouni, A., Hadjichristodoulou, C., Kioutsioukis, I., Magiorkinis, G., and Stilianakis, N. I. (2019), “Satellite Earth Observation Data in Epidemiological Modeling of Malaria, Dengue and West Nile Virus: A Scoping Review,” Remote Sensing, 11, 1862. https://doi.org/10.3390/rs11161862.\n\n\nPearson, R. G., and Dawson, T. P. (2003), “Predicting the impacts of climate change on the distribution of species: Are bioclimate envelope models useful?” Global Ecology and Biogeography, 12, 361–371. https://doi.org/10.1046/j.1466-822X.2003.00042.x.\n\n\nPorcasi, X., Rotela, C. H., Introini, M. V., Frutos, N., Lanfri, S., Peralta, G., De Elia, E. A., Lanfri, M. A., and Scavuzzo, C. M. (2012), “An operative dengue risk stratification system in Argentina based on geospatial technology,” Geospatial Health, 6, S31–S42. https://doi.org/10.4081/gh.2012.120.\n\n\nRumiano, F., Wielgus, E., Miguel, E., Chamaillé-Jammes, S., Valls-Fox, H., Cornélis, D., Garine-Wichatitsky, M. D., Fritz, H., Caron, A., and Tran, A. (2020), “Remote sensing of environmental drivers influencing the movement ecology of sympatric wild and domestic ungulates in semi-arid savannas, a review,” Remote Sensing, 12. https://doi.org/10.3390/rs12193218.\n\n\nTorresani, M., Rocchini, D., Alberti, A., Moudrý, V., Heym, M., Thouverai, E., Kacic, P., and Tomelleri, E. (2023), “LiDAR GEDI derived tree canopy height heterogeneity reveals patterns of biodiversity in forest ecosystems,” Ecological Informatics, 102082. https://doi.org/10.1016/j.ecoinf.2023.102082.\n\n\nViana, J., Santos, J. V., Neiva, R. M., Souza, J., Duarte, L., Teodoro, A. C., and Freitas, A. (2017), “Remote Sensing in Human Health: A 10-Year Bibliometric Analysis,” Remote Sensing, 9, 1225. https://doi.org/10.3390/rs9121225.\n\n\nWang, D., Shao, Q., and Yue, H. (2019), “Surveying Wild Animals from Satellites, Manned Aircraft and Unmanned Aerial Systems (UASs): A Review,” Remote Sensing, 11, 1308. https://doi.org/10.3390/rs11111308."
+  },
+  {
+    "objectID": "studio_index.html",
+    "href": "studio_index.html",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "",
+    "text": "El objetivo de este taller es capacitar a estudiantes de Biología en el uso de herramientas geoespaciales para evaluar el impacto de disturbios ambientales, tomando como caso de estudio los incendios ocurridos durante el verano de 2026 en el Parque Nacional Los Alerces y la zona de Cholila.\nA lo largo de la jornada, realizaremos el mismo análisis técnico utilizando tres metodologías distintas. El propósito es demostrar la versatilidad de las plataformas actuales, comparando flujos de trabajo tradicionales frente a enfoques basados en código:\n\nQGIS (Software de Escritorio): La metodología tradicional basada en interfaces gráficas (“clics”). Es ideal para la inspección visual detallada y la producción de cartografía final.\nGoogle Earth Engine (GEE - Cloud Computing): Procesamiento masivo en la nube. Permite analizar petabytes de datos sin descargarlos. Es una herramienta potente y gratuita para fines académicos, aunque su infraestructura es de código cerrado.\nGRASS GIS en Google Colab (Open Source & Scripting): Representa la filosofía del software libre y de código abierto (FOSS). Utilizaremos el motor de procesamiento de GRASS dentro de un entorno de Python, garantizando la reproducibilidad científica total del análisis."
+  },
+  {
+    "objectID": "studio_index.html#software",
+    "href": "studio_index.html#software",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Software",
+    "text": "Software"
+  },
+  {
+    "objectID": "studio_index.html#other-software",
+    "href": "studio_index.html#other-software",
+    "title": "Using Satellite Data for Species Distribution Modeling with GRASS GIS and R",
+    "section": "Other software",
+    "text": "Other software\nWe will use the software MaxEnt to model habitat suitability. It can be downloaded from: https://biodiversityinformatics.amnh.org/open_source/maxent/"
+  },
+  {
+    "objectID": "studio_index.html#data",
+    "href": "studio_index.html#data",
+    "title": "Using Satellite Data for Species Distribution Modeling with GRASS GIS and R",
+    "section": "Data",
+    "text": "Data\nDownload the following ready to use location with reconstructed daily LST averages (Metz et al. (2017)) for Northern Italy. This dataset is courtesy of mundialis GmbH & Co. KG.\n\nNorthern Italy (1.7 Gb)\n\nWe will also use a points vector map representing Aedes albopictus presence data:\n\nMosquito occurrence data"
+  },
+  {
+    "objectID": "studio_index.html#references",
+    "href": "studio_index.html#references",
+    "title": "Using Satellite Data for Species Distribution Modeling with GRASS GIS and R",
+    "section": "References",
+    "text": "References\n\n\nMetz, M., Andreo, V., and Neteler, M. (2017), “A New Fully Gap-Free Time Series of Land Surface Temperature from MODIS LST Data,” Remote Sensing, 9, 1333. https://doi.org/10.3390/rs9121333."
+  },
+  {
+    "objectID": "about.html#intereses",
+    "href": "about.html#intereses",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "Ecología de enfermedades zoonóticas y vectoriales\nSeries temporales de datos satelitales\nAnálisis de imágenes satelitales\nSistemas de Información Geográfica (SIG)\nModelos de Distribución de Especies (SDM)\nCiencia de datos\nSoftware libre y de código abierto"
+  },
+  {
+    "objectID": "about.html#formación",
+    "href": "about.html#formación",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "Doctora en Ciencias Biológicas. Universidad Nacional de Río Cuarto. 2012.\nMagíster en Aplicaciones Espaciales de Alerta y Respuesta Temprana a Emergencias. Universidad Nacional de Córdoba. 2015.\nLicenciada en Ciencias Biológicas. Universidad Nacional de Río Cuarto. 2005."
+  },
+  {
+    "objectID": "about.html#sobre-mí",
+    "href": "about.html#sobre-mí",
+    "title": "Verónica Andreo",
+    "section": "",
+    "text": "Verónica Andreo es Licenciada en Ciencias Biológicas. Tiene un Doctorado en Ciencias Biológicas y una Maestría en Aplicaciones de la Información Espacial. Se desempeña como investigadora adjunta de CONICET y docente en el Instituto Gulich - Agencia Espacial Argentina (CONAE) en Córdoba, Argentina. Su trabajo de investigación apunta a las aplicaciones de la información espacial y las geotecnologías para problemas relacionados con la ecología de las enfermedades zoonóticas y transmitidas por vectores y la salud pública. Específicamente, se centra en encontrar los factores ambientales determinantes de la distribución y ocurrencia de enfermedades transmitidas por vectores. Está interesada principalmente en aquellas características ambientales que pueden derivarse mediante el análisis de imágenes satelitales, series temporales y técnicas basadas en SIG.\nVerónica forma parte del proyecto GRASS y desde 2021 se desempeña como coordinadora del equipo de desarrollo. Es una ferviente promotora del software libre y de código abierto para geomática y miembro de OSGEO, Open Source Geospatial Foundation. Fue responsable del Comité de Programa para la conferencia internacional FOSS4G 2021, organizada por Argentina. Entre otras actividades, ha participado como mentora de GRASS en el concurso Google Code-In introduciendo a estudiantes de secundaria en el mundo del código abierto y Google Summer of Code para estudiantes universitarios y desarrolladores."
+  },
+  {
+    "objectID": "studio_index.html#introducción",
+    "href": "studio_index.html#introducción",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "",
+    "text": "En esta parte práctica, utilizaremos el archivo Stack_Alerces_Cholila_2026.tif para procesar y visualizar la cicatriz de los incendios. Trabajaremos con la calculadora ráster para generar índices y máscaras."
+  },
+  {
+    "objectID": "studio_index.html#carga-de-datos-e-identificación-de-bandas",
+    "href": "studio_index.html#carga-de-datos-e-identificación-de-bandas",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "1. Carga de Datos e Identificación de Bandas",
+    "text": "1. Carga de Datos e Identificación de Bandas\nAl cargar el stack en QGIS, el programa asigna números a las bandas. Según nuestro script de GEE, el orden es:\n\n\n\nN° Banda\nNombre Original\nDescripción\n\n\n\n\n1-6\nB2 a B12_pre\nBandas pre-fuego\n\n\n7\nNDVI_pre\nÍndice vegetación pre\n\n\n8\nNBR_pre\nÍndice quemado pre\n\n\n9-14\nB2 a B12_post\nBandas post-fuego\n\n\n15\nNDVI_post\nÍndice vegetación post\n\n\n16\nNBR_post\nÍndice quemado post"
+  },
+  {
+    "objectID": "studio_index.html#visualización-dinámica",
+    "href": "studio_index.html#visualización-dinámica",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "2. Visualización Dinámica",
+    "text": "2. Visualización Dinámica\n\nFalso Color SWIR (Post-fuego)\nPara resaltar el área quemada: 1. Click derecho en la capa -&gt; Simbología. 2. Tipo de renderización: Color multibanda. 3. Banda Roja: Banda 14 (B12 post) 4. Banda Verde: Banda 12 (B8 post) 5. Banda Azul: Banda 11 (B4 post) 6. Click en Aceptar."
+  },
+  {
+    "objectID": "studio_index.html#cálculo-de-severidad-dnbr",
+    "href": "studio_index.html#cálculo-de-severidad-dnbr",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "3. Cálculo de Severidad (dNBR)",
+    "text": "3. Cálculo de Severidad (dNBR)\nSi bien el stack ya trae el dNBR, vamos a calcularlo manualmente para practicar la lógica de la Calculadora Ráster:\n\nVe a Ráster &gt; Calculadora ráster.\nIntroduce la siguiente fórmula: \"Banda 8\" - \"Banda 16\" (Esto es: NBR_pre - NBR_post).\nGuarda el resultado como dNBR_manual.tif."
+  },
+  {
+    "objectID": "studio_index.html#enmascaramiento-de-agua-usando-swir",
+    "href": "studio_index.html#enmascaramiento-de-agua-usando-swir",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "4. Enmascaramiento de Agua (Usando SWIR)",
+    "text": "4. Enmascaramiento de Agua (Usando SWIR)\nComo vimos en GEE, el agua puede dar valores de severidad falsos. Vamos a crear una máscara donde los valores de la banda SWIR pre-fuego sean bajos:\n\nAbrir Calculadora ráster.\nFórmula para identificar “tierra firme”: \"Banda 5\" &gt; 500 (Esto genera una capa donde 1 es tierra y 0 es agua).\nMultiplica tu dNBR por esta máscara para “limpiarlo”: \"dNBR_manual@1\" * (\"Banda 5@1\" &gt; 500)"
+  },
+  {
+    "objectID": "studio_index.html#clasificación-de-severidad",
+    "href": "studio_index.html#clasificación-de-severidad",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "5. Clasificación de Severidad",
+    "text": "5. Clasificación de Severidad\nPara identificar solo las áreas severamente quemadas:\n\nVe a las propiedades de la capa de dNBR limpio.\nSimbología: Pseudocolor monobanda.\nModo: Intervalo igual.\nDefine los cortes según el estándar USGS:\n\n&lt; 0.1: No quemado (Transparente)\n0.1 a 0.27: Severidad baja\n0.27 a 0.44: Severidad moderada\n\n0.44: Severidad Alta (Rojo oscuro)"
+  },
+  {
+    "objectID": "studio_index.html#estimación-de-superficie",
+    "href": "studio_index.html#estimación-de-superficie",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "6. Estimación de Superficie",
+    "text": "6. Estimación de Superficie\nPara saber cuántas hectáreas se quemaron:\n\nVe a la Caja de herramientas de procesos (Ctrl+Alt+T).\nBusca la herramienta Informe de valores únicos de capa ráster.\nSelección la capa de severidad alta (la máscara binaria).\nEl reporte te dará el conteo de píxeles.\nCálculo: \\[\\text{Área (ha)} = \\frac{\\text{Número de píxeles} \\times 100 \\text{ m}^2}{10,000}\\] (Recordar que cada píxel de Sentinel-2 mide 10x10 metros)."
+  },
+  {
+    "objectID": "studio_index.html#datos",
+    "href": "studio_index.html#datos",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Datos",
+    "text": "Datos"
+  },
+  {
+    "objectID": "studio_index.html#referencias",
+    "href": "studio_index.html#referencias",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Referencias",
+    "text": "Referencias"
+  },
+  {
+    "objectID": "studio_index.html#introducción-y-objetivos",
+    "href": "studio_index.html#introducción-y-objetivos",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "",
+    "text": "El objetivo de este taller es capacitar a estudiantes de Biología en el uso de herramientas geoespaciales para evaluar el impacto de disturbios ambientales, tomando como caso de estudio los incendios ocurridos durante el verano de 2026 en el Parque Nacional Los Alerces y la zona de Cholila.\nA lo largo de la jornada, realizaremos el mismo análisis técnico utilizando tres metodologías distintas. El propósito es demostrar la versatilidad de las plataformas actuales, comparando flujos de trabajo tradicionales frente a enfoques basados en código:\n\nQGIS (Software de Escritorio): La metodología tradicional basada en interfaces gráficas (“clics”). Es ideal para la inspección visual detallada y la producción de cartografía final.\nGoogle Earth Engine (GEE - Cloud Computing): Procesamiento masivo en la nube. Permite analizar petabytes de datos sin descargarlos. Es una herramienta potente y gratuita para fines académicos, aunque su infraestructura es de código cerrado.\nGRASS GIS en Google Colab (Open Source & Scripting): Representa la filosofía del software libre y de código abierto (FOSS). Utilizaremos el motor de procesamiento de GRASS dentro de un entorno de Python, garantizando la reproducibilidad científica total del análisis."
+  },
+  {
+    "objectID": "studio_index.html#parte-1-tutorial-en-qgis-software-de-escritorio",
+    "href": "studio_index.html#parte-1-tutorial-en-qgis-software-de-escritorio",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Parte 1: Tutorial en QGIS (Software de Escritorio)",
+    "text": "Parte 1: Tutorial en QGIS (Software de Escritorio)\nEn esta etapa trabajaremos con el archivo Stack_Total_Alerces_Cholila_2026.tif que exportamos previamente. ## 1. Carga de Datos e Identificación de Bandas\nAl cargar el stack en QGIS, el programa asigna números a las bandas. Según nuestro script de GEE, el orden es:\n\n\n\nN° Banda\nNombre Original\nDescripción\n\n\n\n\n1-6\nB2 a B12_pre\nBandas pre-fuego\n\n\n7\nNDVI_pre\nÍndice vegetación pre\n\n\n8\nNBR_pre\nÍndice quemado pre\n\n\n9-14\nB2 a B12_post\nBandas post-fuego\n\n\n15\nNDVI_post\nÍndice vegetación post\n\n\n16\nNBR_post\nÍndice quemado post"
+  },
+  {
+    "objectID": "studio_index.html#parte-2-google-earth-engine-nube-y-javascript",
+    "href": "studio_index.html#parte-2-google-earth-engine-nube-y-javascript",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Parte 2: Google Earth Engine (Nube y JavaScript)",
+    "text": "Parte 2: Google Earth Engine (Nube y JavaScript)\nEsta metodología permite realizar todo el análisis anterior sin descargar un solo byte de datos a la computadora local.\n\nFilosofía: “Traer el algoritmo a los datos”.\nAcceso: El script completo con el filtrado de nubes, composición de medianas y cálculo de índices se encuentra en el siguiente repositorio:\nLink al código: https://code.earthengine.google.com/ddfd19fbad81e4ff84df80ebf00df7b7"
+  },
+  {
+    "objectID": "studio_index.html#parte-3-grass-gis-en-google-colab-foss-scripting",
+    "href": "studio_index.html#parte-3-grass-gis-en-google-colab-foss-scripting",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)",
+    "text": "Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)\nPara esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de GRASS GIS. Esto nos permite procesar datos de manera automatizada y reproducible."
+  }
+]

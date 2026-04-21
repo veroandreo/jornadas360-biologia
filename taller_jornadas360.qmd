@@ -1,0 +1,153 @@
+---
+title: "Análisis de Severidad de Incendios y estimación de área quemada"
+subtitle: "PN Los Alerces y localidad de Cholila - 2026" 
+author: "Verónica Andreo"
+date: today
+---
+
+## Introducción y Objetivos
+
+El objetivo de este taller es capacitar a estudiantes de Biología en el uso de herramientas geoespaciales para evaluar el impacto de disturbios ambientales, tomando como caso de estudio los incendios ocurridos durante el verano de 2026 en el Parque Nacional Los Alerces y la zona de Cholila.
+
+A lo largo de la jornada, realizaremos el mismo análisis técnico utilizando **tres metodologías distintas**. El propósito es demostrar la versatilidad de las plataformas actuales, comparando flujos de trabajo tradicionales frente a enfoques basados en código:
+
+1.  **QGIS (Software de Escritorio):** La metodología tradicional basada en interfaces gráficas ("clics"). Es ideal para la inspección visual detallada y la producción de cartografía final.
+2.  **Google Earth Engine (GEE - Cloud Computing):** Procesamiento masivo en la nube. Permite analizar petabytes de datos sin descargarlos. Es una herramienta potente y gratuita para fines académicos, aunque su infraestructura es de código cerrado.
+3.  **GRASS GIS en Google Colab (Open Source & Scripting):** Representa la filosofía del software libre y de código abierto (FOSS). Utilizaremos el motor de procesamiento de GRASS dentro de un entorno de Python, garantizando la reproducibilidad científica total del análisis.
+
+---
+
+## Parte 1: Tutorial en QGIS (Software de Escritorio)
+
+En esta etapa trabajaremos con las bandas originales de Sentinel-2 contenidas en el archivo `Stack_Total_Alerces_Cholila_2026.tif`.
+
+## 1. Carga de Datos e Identificación de Bandas
+
+Al cargar el stack en QGIS, el programa asigna números a las bandas.
+
+| N° Banda | Nombre Original | Descripción |
+|:---:|:---|:---|
+| 1 | B2_pre | Azul (Visible) - Pre-fuego |
+| 2 | B3_pre | Verde (Visible) - Pre-fuego |
+| 3 | B4_pre | Rojo (Visible) - Pre-fuego |
+| 4 | B8_pre | NIR (Infrarrojo Cercano) - Pre-fuego |
+| 5 | B11_pre | SWIR 1 (Infrarrojo de Onda Corta) - Pre-fuego |
+| 6 | B12_pre | SWIR 2 (Infrarrojo de Onda Corta) - Pre-fuego |
+| 7 | B2_post | Azul (Visible) - Post-fuego |
+| 8 | B3_post | Verde (Visible) - Post-fuego |
+| 9 | B4_post | Rojo (Visible) - Post-fuego |
+| 10 | B8_post | NIR (Infrarrojo Cercano) - Post-fuego |
+| 11 | B11_post | SWIR 1 (Infrarrojo de Onda Corta) - Post-fuego |
+| 12 | B12_post | SWIR 2 (Infrarrojo de Onda Corta) - Post-fuego |
+
+## 2. Visualización Dinámica
+
+### Falso Color SWIR (Post-fuego)
+Para resaltar el área quemada en la imagen posterior al incendio:
+1. Click derecho en la capa -> **Simbología**.
+2. Tipo de renderización: **Color multibanda**.
+3. Asignar: Rojo = `Banda 12` (B12 post), Verde = `Banda 10` (B8 post), Azul = `Banda 9` (B4 post).
+4. Click en **Aceptar**.
+
+
+## 3 Álgebra de Bandas: Cálculo de NDVI y NBR
+
+1. Ve a **Ráster > Calculadora ráster**.
+2. Introduce las siguientes fórmulas:
+  * **NDVI Pre-fuego:** `("Banda 4" - "Banda 3") / ("Banda 4" + "Banda 3")`
+  * **NBR Pre-fuego:** `("Banda 4" - "Banda 6") / ("Banda 4" + "Banda 6")`
+  * **NBR Post-fuego:** `("Banda 10" - "Banda 12") / ("Banda 10" + "Banda 12")`
+3. Guarda los resultado como `nombre.tif`.
+
+
+## 4 Cálculo de Severidad (dNBR)
+
+Una vez obtenidos los índices NBR, calculamos la diferencia:
+1. Abrir Calculadora ráster.
+2. Fórmula: `"NBR_pre@1" - "NBR_post@1"`.
+3. Guardar como `dnbr.tif`.
+
+## 5 Enmascaramiento de Agua (Usando SWIR)
+
+El agua puede dar valores de severidad falsos. Vamos a crear una máscara donde los valores de la banda SWIR pre-fuego sean bajos:
+
+1. Abrir Calculadora ráster.
+2. Fórmula para identificar "tierra firme":
+   `"Banda 5" > 500`
+   *(Esto genera una capa donde 1 es tierra y 0 es agua)*.
+3. Multiplica tu dNBR por esta máscara para "limpiarlo":
+   `"dnbr@1" * ("Banda 5@1" > 500)`
+
+
+## 6 Clasificación y Estimación de Superficie
+
+Para identificar solo las áreas **severamente quemadas**:
+
+1. Ve a las propiedades de la capa de dNBR enmascarado previamente.
+2. Simbología: **Pseudocolor monobanda**.
+3. Modo: **Intervalo igual**.
+4. Define los cortes según el estándar USGS:
+   - < 0.1: No quemado (Transparente)
+   - 0.1 a 0.27: Severidad baja
+   - 0.27 a 0.44: Severidad moderada
+   - > 0.44: **Severidad Alta** (Rojo oscuro)
+
+
+## 7. Estimación de Superficie
+
+Para saber cuántas hectáreas se quemaron:
+
+1. Ve a la **Caja de herramientas de procesos** (Ctrl+Alt+T).
+2. Busca la herramienta **Informe de valores únicos de capa ráster**.
+3. Selección la capa de severidad alta (la máscara binaria).
+4. El reporte te dará el conteo de píxeles. 
+5. **Cálculo:** $$\text{Área (ha)} = \frac{\text{Número de píxeles} \times 100 \text{ m}^2}{10,000}$$
+   *(Recordar que cada píxel de Sentinel-2 mide 10x10 metros)*.
+
+
+---
+
+## Parte 2: Google Earth Engine (Nube y JavaScript)
+
+Esta metodología permite realizar todo el análisis anterior sin descargar un solo byte de datos a la computadora local.
+
+* **Filosofía:** "Traer el algoritmo a los datos".
+* **Acceso:** El script completo con el filtrado por nubes, composición de medianas y cálculo de índices se encuentra en el siguiente repositorio:
+* **Link al código:** https://code.earthengine.google.com/ddfd19fbad81e4ff84df80ebf00df7b7
+
+
+---
+
+## Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)
+
+Para esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de **GRASS**. Esto nos permite procesar datos de manera automatizada y reproducible.
+
+Copia este bloque en un cuaderno de **Google Colab**:
+
+```python
+# 1. Instalación e importación
+!apt-get install grass-core
+import os
+
+# 2. Importar el stack (Solo las 12 bandas originales)
+!r.in.gdal input=Stack_Total_Alerces_Cholila_2026.tif output=stack --o
+
+# 3. Definir región de trabajo
+!g.region raster=stack.1 -p
+
+# 4. Álgebra de mapas: NDVI y NBR
+# Nota: stack.4 es NIR_pre, stack.3 es Rojo_pre, stack.6 es SWIR2_pre
+!r.mapcalc "ndvi_pre = float(stack.4 - stack.3) / (stack.4 + stack.3)"
+!r.mapcalc "nbr_pre = float(stack.4 - stack.6) / (stack.4 + stack.6)"
+!r.mapcalc "nbr_post = float(stack.10 - stack.12) / (stack.10 + stack.12)"
+
+# 5. dNBR y Máscara de Agua (stack.5 es SWIR1_pre)
+!r.mapcalc "dnbr = nbr_pre - nbr_post"
+!r.mapcalc "tierra = if(stack.5 > 500, 1, null())"
+!r.mapcalc "sev_alta = if(tierra && dnbr > 0.44, 1, null())"
+
+# 6. Reporte de superficie
+print("HECTÁREAS CON SEVERIDAD ALTA:")
+!r.report map=sev_alta units=h
+```
+

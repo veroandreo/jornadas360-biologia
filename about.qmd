@@ -1,0 +1,71 @@
+---
+title: "Verónica Andreo"
+about:
+  template: trestles
+  image: assets/img/caricatura.png
+  links:
+    - text: "{{< ai researchgate size=2x >}}"
+      url: "https://www.researchgate.net/profile/Veronica_Andreo2"
+    - text: "{{< ai google-scholar size=2x >}}"
+      url: https://scholar.google.com/citations?user=zoN4MO4AAAAJ&hl=en  
+    - text: "{{< ai orcid size=2x >}}"
+      url: https://orcid.org/0000-0002-4633-2161
+    - text: "{{< fa brands github size=2x >}}"
+      url: https://github.com/veroandreo
+---
+
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-12}
+## {{< fa solid satellite-dish >}} Sobre mí 
+[**Verónica Andreo**](https://veroandreo.gitlab.io/) es Licenciada en Ciencias Biológicas.
+Tiene un Doctorado en Ciencias Biológicas y una Maestría en Aplicaciones de la Información Espacial. 
+Se desempeña como investigadora adjunta de [CONICET](https://www.conicet.gov.ar/) y
+docente en el [Instituto Gulich](http://ig.conae.unc.edu.ar/) - Agencia Espacial Argentina
+[(CONAE)](https://www.argentina.gob.ar/ciencia/conae) en Córdoba, Argentina.
+Su trabajo de investigación apunta a las aplicaciones de la información espacial y las
+geotecnologías para problemas relacionados con la ecología de las enfermedades zoonóticas
+y transmitidas por vectores y la salud pública. 
+Específicamente, se centra en encontrar los 
+**factores ambientales determinantes de la distribución y ocurrencia de enfermedades transmitidas por vectores**. 
+Está interesada principalmente en aquellas características ambientales que pueden derivarse 
+mediante el **análisis de imágenes satelitales, series temporales y técnicas basadas en SIG**.
+
+Verónica forma parte del proyecto [**GRASS**](https://grass.osgeo.org/) y desde 2021 se desempeña
+como coordinadora del [equipo](https://grass.osgeo.org/about/team/) de desarrollo.
+Es una ferviente promotora del software libre y de código abierto para geomática y miembro de 
+[OSGEO](), Open Source Geospatial Foundation. 
+Fue responsable del Comité de Programa para la conferencia internacional 
+[**FOSS4G 2021**](2021.foss4g.org/), organizada por Argentina. 
+Entre otras actividades, ha participado como mentora de GRASS 
+en el concurso [Google Code-In](https://codein.withgoogle.com/) introduciendo a estudiantes
+de secundaria en el mundo del código abierto y 
+[Google Summer of Code](https://summerofcode.withgoogle.com/) 
+para estudiantes universitarios y desarrolladores.
+:::
+
+
+::: {.g-col-12 .g-col-md-6}
+## {{< fa solid heart >}} Intereses 
+
+- Ecología de enfermedades zoonóticas y vectoriales
+- Series temporales de datos satelitales
+- Análisis de imágenes satelitales
+- Sistemas de Información Geográfica (SIG)
+- Modelos de Distribución de Especies (SDM)
+- Ciencia de datos
+- Software libre y de código abierto
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## {{< fa solid graduation-cap >}}  Formación
+
+- **Doctora en Ciencias Biológicas**. *Universidad Nacional de Río Cuarto*. 2012.
+- **Magíster en Aplicaciones Espaciales de Alerta y Respuesta Temprana a Emergencias**. 
+*Universidad Nacional de Córdoba*. 2015.
+- **Licenciada en Ciencias Biológicas**. *Universidad Nacional de Río Cuarto*. 2005.
+:::
+
+:::

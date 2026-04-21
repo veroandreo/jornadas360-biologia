@@ -1,0 +1,40 @@
+---
+title: "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología"
+subtitle: "Presentación y taller en el marco de las Jornadas UNC 360 - Edición Biología"
+date: today
+author: "Verónica Andreo"
+toc: true
+---
+
+## Overview
+
+¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS, en GEE y en Google Colab con Python y GRASS. 
+
+## Contents
+
+### Presentación
+
+**Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología**
+
+- Motivación
+- Geografía de la salud
+- Ecología de las enfermedades
+- Introducción al SR y los SIG
+  - ¿Qué es el SR o Teledetección?
+  - ¿Qué es un SIG?
+- SR y ecología de enfermedades
+  - Resolución vs escala
+  - ¿Cómo utilizamos el SR?
+  - Ejemplos
+- Brechas, desafíos y oportunidades
+- Conclusiones
+
+### Taller
+
+**Ejercicio Práctico: Severidad de incendios y estimación de área quemada**
+
+- Estimación de área quemada en QGIS
+- Estimación de área quemada en GEE
+- Estimación de área quemada con Python y GRASS en Google Colab
+
+
