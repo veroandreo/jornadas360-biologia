@@ -481,18 +481,6 @@ Antes de seleccionar qué datos usar, debemos entender que los satélites tienen
 :::
 
 
-<!-- ## Características básicas del SR
-
-![](assets/img/lecture/all_resolutions_relation.png){fig-align="center"}
-
-::: footer
-@dif_resolutions_2018
-:::
-
-::: notes
-Sin embargo, debemos tener en cuenta algunas características básicas de la teledetección antes de seleccionar qué datos utilizar.
-::: -->
-
 ## El problema de la escala
 
 <br>
@@ -690,37 +678,29 @@ Combinamos un mapa de probabilidad del reservorio con uno de los casos humanos p
 @andreo_ecological_2022, [*i.cva*](https://grass.osgeo.org/grass-stable/manuals/addons/i.cva.html)
 :::
 
-<!-- --- -->
+---
 
-<!-- ### Mosquitoes: towards operational high res maps -->
+### Hacia mapas de riesgo operativos
 
-<!-- ::: {.columns} -->
+::: {.columns}
+::: {.column width="60%"}
+![Workflow](assets/img/lecture/workflow_dengue.png)
 
-<!-- ::: {.column width="60%"} -->
+![](assets/img/grass-green.svg){.fragment .absolute top=200 left=2 width=80}
 
-<!-- ![Workflow](assets/img/lecture/workflow_dengue.png) -->
+![](assets/img/lecture/R_logo.png){.fragment .absolute top=300 left=530 width=85}
+:::
 
-<!-- ![](assets/img/grass-green.svg){.fragment .absolute top=200 left=2 width=80} -->
+::: {.column width="40%"}
+![](assets/img/lecture/Predictions.png)
 
-<!-- ![](assets/img/lecture/R_logo.png){.fragment .absolute top=300 left=530 width=85} -->
+![](assets/img/lecture/aedesaegypti_blood_mirror.png){width="32%" style="float: right;"}
+:::
+:::
 
-<!-- ::: -->
-
-<!-- ::: {.column width="40%"} -->
-
-<!-- ![](assets/img/lecture/Predictions.png) -->
-
-<!-- ![](assets/img/lecture/aedesaegypti_blood_mirror.png){width="32%" style="float: right;"} -->
-
-<!-- ::: -->
-
-<!-- ::: -->
-
-<!-- ::: footer -->
-
-<!-- @andreo_towards_2021 -->
-
-<!-- ::: -->
+::: footer
+@andreo_towards_2021
+:::
 
 ------------------------------------------------------------------------
 
@@ -892,30 +872,6 @@ Doctorando, **Abraham Coiman**.
 ## Otros proyectos en desarrollo {.smaller}
 
 <br><br>
-
-<!-- ::: {layout="[1, 20]"} -->
-<!-- ![](assets/img/lecture/abraham.png){width="51"} -->
-
-<!-- Incidencia del asma en función de la calidad del aire teledetectada y del LULCC. Doctorando, **Abraham Coiman**. -->
-<!-- ::: -->
-
-<!-- ::: {layout="[1, 20]"} -->
-<!-- ![](assets/img/lecture/carlita.png){width="51"} -->
-
-<!-- Distribución de las enfermedades congénitas y acceso a la salud. Doctoranda, **Carla Rodriguez Gonzalez**. -->
-<!-- ::: -->
-
-<!-- ::: {layout="[1, 18]"}
-![](assets/img/lecture/mati.png){width="60"}
-
-Caracterización epidemiológica de la infección por parásitos intestinales en niños. Doctorando, **Matias Scavuzzo**.
-:::
-
-::: {layout="[1, 18]"}
-![](assets/img/lecture/mica.png){width="60"}
-
-Modelado geoespacial de la malnutrición en niños y adolescentes. Doctoranda, **Micaela Campero**.
-::: -->
 
 ::: {layout="[3, 18]"}
 ![](assets/img/lecture/juan_diego.png){width="51"} ![](assets/img/profile.png){width="51"}

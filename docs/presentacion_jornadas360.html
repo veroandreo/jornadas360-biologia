@@ -196,8 +196,8 @@ Dra. Verónica Andreo <a href="https://orcid.org/0000-0002-4633-2161" class="qua
 </div><div class="column" style="width:40%;">
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-8fa9c0f7087542dad40a" style="width:384px;height:384px;"></div>
-<script type="application/json" data-for="htmlwidget-8fa9c0f7087542dad40a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[-31.5204194,-64.4653258,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"IG",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-31.5204194,-31.5204194],"lng":[-64.4653258,-64.4653258]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-125fad8fbb5596f855f2" style="width:384px;height:384px;"></div>
+<script type="application/json" data-for="htmlwidget-125fad8fbb5596f855f2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[-31.5204194,-64.4653258,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"IG",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-31.5204194,-31.5204194],"lng":[-64.4653258,-64.4653258]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -737,17 +737,6 @@ Clasificaciones e interpretaciones</p>
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<!-- ## Características básicas del SR
-
-![](assets/img/lecture/all_resolutions_relation.png){fig-align="center"}
-
-::: footer
-@dif_resolutions_2018
-:::
-
-::: notes
-Sin embargo, debemos tener en cuenta algunas características básicas de la teledetección antes de seleccionar qué datos utilizar.
-::: -->
 </section>
 <section class="slide level2">
 <h2>El problema de la escala</h2>
@@ -980,22 +969,27 @@ Sin embargo, debemos tener en cuenta algunas características básicas de la tel
 <div class="footer">
 <p><span class="citation" data-cites="andreo_ecological_2022">Andreo et al. (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span>, <a href="https://grass.osgeo.org/grass-stable/manuals/addons/i.cva.html"><em>i.cva</em></a></p>
 </div>
-<!-- --- -->
-<!-- ### Mosquitoes: towards operational high res maps -->
-<!-- ::: {.columns} -->
-<!-- ::: {.column width="60%"} -->
-<!-- ![Workflow](assets/img/lecture/workflow_dengue.png) -->
-<!-- ![](assets/img/grass-green.svg){.fragment .absolute top=200 left=2 width=80} -->
-<!-- ![](assets/img/lecture/R_logo.png){.fragment .absolute top=300 left=530 width=85} -->
-<!-- ::: -->
-<!-- ::: {.column width="40%"} -->
-<!-- ![](assets/img/lecture/Predictions.png) -->
-<!-- ![](assets/img/lecture/aedesaegypti_blood_mirror.png){width="32%" style="float: right;"} -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ::: footer -->
-<!-- @andreo_towards_2021 -->
-<!-- ::: -->
+</section>
+<section class="slide level2">
+
+<h3>Hacia mapas de riesgo operativos</h3>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/img/lecture/workflow_dengue.png"></p>
+<figcaption>Workflow</figcaption>
+</figure>
+</div>
+<p><img data-src="assets/img/grass-green.svg" class="fragment absolute" style="top: 200px; left: 2px; width: 80px; "></p>
+<p><img data-src="assets/img/lecture/R_logo.png" class="fragment absolute" style="top: 300px; left: 530px; width: 85px; "></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="assets/img/lecture/Predictions.png"></p>
+<p><img data-src="assets/img/lecture/aedesaegypti_blood_mirror.png" style="float: right;;width:32.0%"></p>
+</div></div>
+<div class="footer">
+<p><span class="citation" data-cites="andreo_towards_2021">Andreo et al. (<a href="#/references" role="doc-biblioref" onclick="">2021a</a>)</span></p>
+</div>
 </section>
 <section class="slide level2">
 
@@ -1009,7 +1003,7 @@ Sin embargo, debemos tener en cuenta algunas características básicas de la tel
 <p><img data-src="assets/img/lecture/R_logo.png" class="fragment absolute" style="bottom: 30px; right: 420px; width: 130px; "></p>
 <p><img data-src="assets/img/grass-green.svg" class="fragment absolute" style="bottom: 30px; right: 30px; width: 100px; "></p>
 <div class="footer">
-<p><span class="citation" data-cites="andreo_spatial_2021">Andreo et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
+<p><span class="citation" data-cites="andreo_spatial_2021">Andreo et al. (<a href="#/references" role="doc-biblioref" onclick="">2021b</a>)</span></p>
 </div>
 </section>
 <section class="slide level2">
@@ -1151,25 +1145,6 @@ PROSAT II. BID N° 4840/OC-AR
 <section class="slide level2 smaller">
 <h2>Otros proyectos en desarrollo</h2>
 <p><br><br></p>
-<!-- ::: {layout="[1, 20]"} -->
-<!-- ![](assets/img/lecture/abraham.png){width="51"} -->
-<!-- Incidencia del asma en función de la calidad del aire teledetectada y del LULCC. Doctorando, **Abraham Coiman**. -->
-<!-- ::: -->
-<!-- ::: {layout="[1, 20]"} -->
-<!-- ![](assets/img/lecture/carlita.png){width="51"} -->
-<!-- Distribución de las enfermedades congénitas y acceso a la salud. Doctoranda, **Carla Rodriguez Gonzalez**. -->
-<!-- ::: -->
-<!-- ::: {layout="[1, 18]"}
-![](assets/img/lecture/mati.png){width="60"}
-
-Caracterización epidemiológica de la infección por parásitos intestinales en niños. Doctorando, **Matias Scavuzzo**.
-:::
-
-::: {layout="[1, 18]"}
-![](assets/img/lecture/mica.png){width="60"}
-
-Modelado geoespacial de la malnutrición en niños y adolescentes. Doctoranda, **Micaela Campero**.
-::: -->
 <div class="quarto-layout-panel" data-layout="[3, 18]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
@@ -1321,6 +1296,9 @@ In-saludables
 <div id="ref-aguirre_implementation_2021" class="csl-entry" role="listitem">
 Aguirre, E., Andreo, V., Porcasi, X., Lopez, L., Guzman, C., González, P., and Scavuzzo, C. M. (2021), <span>“Implementation of a proactive system to monitor <span>Aedes</span> aegypti populations using open access historical and forecasted meteorological data,”</span> <em>Ecological Informatics</em>, 64, 101351. <a href="https://doi.org/10.1016/j.ecoinf.2021.101351">https://doi.org/10.1016/j.ecoinf.2021.101351</a>.
 </div>
+<div id="ref-andreo_towards_2021" class="csl-entry" role="listitem">
+Andreo, V., Cuervo, P. F., Porcasi, X., Lopez, L., Guzman, C., and Scavuzzo, C. M. (2021a), <span>“Towards a workflow for operational mapping of <span>Aedes</span> aegypti at urban scale based on remote sensing,”</span> <em>Remote Sensing Applications: Society and Environment</em>, 23, 100554. <a href="https://doi.org/10.1016/j.rsase.2021.100554">https://doi.org/10.1016/j.rsase.2021.100554</a>.
+</div>
 <div id="ref-andreo_modeling_2011" class="csl-entry" role="listitem">
 Andreo, V., Glass, G., Shields, T., Provensal, C., and Polop, J. (2011), <span>“Modeling <span>Potential</span> <span>Distribution</span> of <span>Oligoryzomys</span> longicaudatus, the <span>Andes</span> <span>Virus</span> (<span>Genus</span>: <span>Hantavirus</span>) <span>Reservoir</span>, in <span>Argentina</span>,”</span> <em>EcoHealth</em>, 8, 332–348.
 </div>
@@ -1331,7 +1309,7 @@ Andreo, V., Izquierdo-Verdiguier, E., Zurita-Milla, R., Rosa, R., Rizzoli, A., a
 Andreo, V., Neteler, M., Rocchini, D., Provensal, C., Levis, S., Porcasi, X., Rizzoli, A., Lanfri, M., Scavuzzo, M., Pini, N., Enria, D., and Polop, J. (2014), <span>“Estimating <span>Hantavirus</span> <span>Risk</span> in <span>Southern</span> <span>Argentina</span>: <span>A</span> <span>GIS</span>-<span>Based</span> <span>Approach</span> <span>Combining</span> <span>Human</span> <span>Cases</span> and <span>Host</span> <span>Distribution</span>,”</span> <em>Viruses</em>, 6, 201–222. <a href="https://doi.org/10.3390/v6010201">https://doi.org/10.3390/v6010201</a>.
 </div>
 <div id="ref-andreo_spatial_2021" class="csl-entry" role="listitem">
-Andreo, V., Porcasi, X., Guzman, C., Lopez, L., and Scavuzzo, C. M. (2021), <span>“Spatial <span>Distribution</span> of <span>Aedes</span> aegypti <span>Oviposition</span> <span>Temporal</span> <span>Patterns</span> and <span>Their</span> <span>Relationship</span> with <span>Environment</span> and <span>Dengue</span> <span>Incidence</span>,”</span> <em>Insects</em>, 12, 919. <a href="https://doi.org/10.3390/insects12100919">https://doi.org/10.3390/insects12100919</a>.
+Andreo, V., Porcasi, X., Guzman, C., Lopez, L., and Scavuzzo, C. M. (2021b), <span>“Spatial <span>Distribution</span> of <span>Aedes</span> aegypti <span>Oviposition</span> <span>Temporal</span> <span>Patterns</span> and <span>Their</span> <span>Relationship</span> with <span>Environment</span> and <span>Dengue</span> <span>Incidence</span>,”</span> <em>Insects</em>, 12, 919. <a href="https://doi.org/10.3390/insects12100919">https://doi.org/10.3390/insects12100919</a>.
 </div>
 <div id="ref-andreo_ecological_2022" class="csl-entry" role="listitem">
 Andreo, V., Rosa, J., Ramos, K., and Salomón, O. D. (2022), <span>“Ecological characterization of a cutaneous leishmaniasis outbreak through remotely sensed land cover changes,”</span> <em>Geospatial Health</em>, 17. <a href="https://doi.org/10.4081/gh.2022.1033">https://doi.org/10.4081/gh.2022.1033</a>.
