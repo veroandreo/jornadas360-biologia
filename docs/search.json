@@ -32,35 +32,35 @@
     "href": "introduction.html",
     "title": "Jornadas 360 - Biología",
     "section": "",
-    "text": "Show in new tab"
+    "text": "Abrir en otra pestaña"
   },
   {
     "objectID": "introduction.html#presentación",
     "href": "introduction.html#presentación",
     "title": "Jornadas 360 - Biología",
     "section": "",
-    "text": "Show in new tab"
+    "text": "Abrir en otra pestaña"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología",
     "section": "",
-    "text": "¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS y un pequeño ejemplo con rutinas de Python y GRASS en Google Colab."
+    "text": "¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS, en GEE y en Google Colab con Python y GRASS."
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología",
     "section": "",
-    "text": "¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS y un pequeño ejemplo con rutinas de Python y GRASS en Google Colab."
+    "text": "¿Sabías que el entorno determina dónde y cuándo pueden propagarse enfermedades como el dengue o el hantavirus? En un mundo marcado por crisis ambientales, los biólogos contamos con una herramienta poderosa: la observación de la Tierra mediante satélites. En este workshop, exploraremos cómo la teledetección nos permite monitorear variables ambientales desde el espacio para entender la dinámica de vectores y reservorios. Compartiré nuestra experiencia en el Instituto Gulich (UNC-CONAE) utilizando teledetección y Sistemas de Información Geográfica (SIG) para predecir la distribución de especies y el riesgo de brotes, optimizar el muestreo en campo y apoyar la toma de decisiones en salud pública. Veremos que la biología moderna va mucho más allá del campo y el laboratorio: se trata también de integrar datos, programar y analizar el territorio a gran escala. En la segunda mitad del taller, realizaremos una actividad introductoria de procesamiento y visualización de imágenes satelitales en el entorno QGIS, en GEE y en Google Colab con Python y GRASS."
   },
   {
     "objectID": "index.html#contents",
     "href": "index.html#contents",
     "title": "Biología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología",
     "section": "Contents",
-    "text": "Contents\n\nPresentación\nBiología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología\n\nMotivación\nGeografía de la salud\nEcología de las enfermedades\nIntroducción al SR y los SIG\n\n¿Qué es el SR o Teledetección?\n¿Qué es un SIG?\n\nSR y ecología de enfermedades\n\nResolución vs escala\n¿Cómo utilizamos el SR?\nEjemplos\n\nBrechas, desafíos y oportunidades\nConclusiones\n\n\n\nTaller\nEjercicio Práctico de estimación de área quemada\n\nEstimación de área quemada en QGIS\nEstimación de área quemada en GEE\nEstimación de área quemada con Python y GRASS en Google Colab"
+    "text": "Contents\n\nPresentación\nBiología desde el espacio: Monitoreo satelital, SIG y eco-epidemiología\n\nMotivación\nGeografía de la salud\nEcología de las enfermedades\nIntroducción al SR y los SIG\n\n¿Qué es el SR o Teledetección?\n¿Qué es un SIG?\n\nSR y ecología de enfermedades\n\nResolución vs escala\n¿Cómo utilizamos el SR?\nEjemplos\n\nBrechas, desafíos y oportunidades\nConclusiones\n\n\n\nTaller\nEjercicio Práctico: Severidad de incendios y estimación de área quemada\n\nEstimación de área quemada en QGIS\nEstimación de área quemada en GEE\nEstimación de área quemada con Python y GRASS en Google Colab"
   },
   {
     "objectID": "presentacion_jornadas360.html#references",
@@ -264,5 +264,250 @@
     "title": "Análisis de Severidad de Incendios y estimación de área quemada",
     "section": "Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)",
     "text": "Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)\nPara esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de GRASS GIS. Esto nos permite procesar datos de manera automatizada y reproducible."
+  },
+  {
+    "objectID": "taller_jornadas360.html",
+    "href": "taller_jornadas360.html",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "",
+    "text": "El objetivo de este taller es realizar una demostración básica sobre el uso de herramientas geoespaciales para evaluar el impacto de disturbios ambientales, tomando como caso de estudio los incendios ocurridos durante el verano de 2026 en el Parque Nacional Los Alerces y la zona de Cholila.\nRealizaremos el mismo análisis técnico utilizando tres metodologías distintas. El propósito es demostrar la versatilidad de las plataformas actuales, comparando flujos de trabajo tradicionales con software “de escritorio” frente a enfoques basados en código automatizable, reproducible y escalable:\n\nQGIS (Software de Escritorio): La metodología tradicional basada en interfaces gráficas (“clics”). Es ideal para la inspección visual detallada y la producción de cartografía final.\nGoogle Earth Engine (GEE - Cloud Computing): Procesamiento masivo en la nube. Permite analizar petabytes de datos sin descargarlos. Es una herramienta potente y gratuita para fines académicos, aunque su infraestructura es de código cerrado.\nGRASS GIS en Google Colab (Open Source & Scripting): Representa la filosofía del software libre y de código abierto (FOSS). Utilizaremos el motor de procesamiento de GRASS dentro de un entorno de Python, garantizando la reproducibilidad científica total del análisis."
+  },
+  {
+    "objectID": "taller_jornadas360.html#introducción-y-objetivos",
+    "href": "taller_jornadas360.html#introducción-y-objetivos",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "",
+    "text": "El objetivo de este taller es realizar una demostración básica sobre el uso de herramientas geoespaciales para evaluar el impacto de disturbios ambientales, tomando como caso de estudio los incendios ocurridos durante el verano de 2026 en el Parque Nacional Los Alerces y la zona de Cholila.\nRealizaremos el mismo análisis técnico utilizando tres metodologías distintas. El propósito es demostrar la versatilidad de las plataformas actuales, comparando flujos de trabajo tradicionales con software “de escritorio” frente a enfoques basados en código automatizable, reproducible y escalable:\n\nQGIS (Software de Escritorio): La metodología tradicional basada en interfaces gráficas (“clics”). Es ideal para la inspección visual detallada y la producción de cartografía final.\nGoogle Earth Engine (GEE - Cloud Computing): Procesamiento masivo en la nube. Permite analizar petabytes de datos sin descargarlos. Es una herramienta potente y gratuita para fines académicos, aunque su infraestructura es de código cerrado.\nGRASS GIS en Google Colab (Open Source & Scripting): Representa la filosofía del software libre y de código abierto (FOSS). Utilizaremos el motor de procesamiento de GRASS dentro de un entorno de Python, garantizando la reproducibilidad científica total del análisis."
+  },
+  {
+    "objectID": "taller_jornadas360.html#parte-1-tutorial-en-qgis-software-de-escritorio",
+    "href": "taller_jornadas360.html#parte-1-tutorial-en-qgis-software-de-escritorio",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Parte 1: Tutorial en QGIS (Software de Escritorio)",
+    "text": "Parte 1: Tutorial en QGIS (Software de Escritorio)\nEn esta etapa trabajaremos con las bandas originales de Sentinel-2 contenidas en los archivos S2_PNAlerces_pre.tif y S2_PNAlerces_post.tif.\n\n1. Carga de Datos e Identificación de Bandas\nAl abrir los archivos en QGIS, el programa asigna números a las bandas.\n\nS2_PNAlerces_pre.tif\n\n\n\n\nN° Banda\nNombre Original\nDescripción\n\n\n\n\n1\nB2_pre\nAzul (Visible) - Pre-fuego\n\n\n2\nB3_pre\nVerde (Visible) - Pre-fuego\n\n\n3\nB4_pre\nRojo (Visible) - Pre-fuego\n\n\n4\nB8_pre\nNIR (Infrarrojo Cercano) - Pre-fuego\n\n\n5\nB11_pre\nSWIR 1 (Infrarrojo de Onda Corta) - Pre-fuego\n\n\n6\nB12_pre\nSWIR 2 (Infrarrojo de Onda Corta) - Pre-fuego\n\n\n\n\nS2_PNAlerces_post.tif\n\n\n\n\nN° Banda\nNombre Original\nDescripción\n\n\n\n\n1\nB2_post\nAzul (Visible) - Post-fuego\n\n\n2\nB3_post\nVerde (Visible) - Post-fuego\n\n\n3\nB4_post\nRojo (Visible) - Post-fuego\n\n\n4\nB8_post\nNIR (Infrarrojo Cercano) - Post-fuego\n\n\n5\nB11_post\nSWIR 1 (Infrarrojo de Onda Corta) - Post-fuego\n\n\n6\nB12_post\nSWIR 2 (Infrarrojo de Onda Corta) - Post-fuego\n\n\n\n\n\n2. Visualización Dinámica\n\nColor natural (Pre-fuego)\n\nClick derecho en la capa pre fuego -&gt; Propiedades -&gt; Simbología.\nTipo de renderización: Color multibanda.\nAsignar: Rojo = Banda 3 (B4_pre), Verde = Banda 2 (B3_pre), Azul = Banda 1 (B2_pre).\nClick en Aceptar.\n\n\n\nFalso Color SWIR (Post-fuego)\nPara resaltar el área quemada en la imagen posterior al incendio: 1. Click derecho en la capa -&gt; Simbología. 2. Tipo de renderización: Color multibanda. 3. Asignar: Rojo = Banda 12 (B12 post), Verde = Banda 10 (B8 post), Azul = Banda 9 (B4 post). 4. Click en Aceptar.\n\n\n\n3. Álgebra de Bandas: Cálculo de NDVI y NBR\n\nIr a Ráster &gt; Calculadora ráster.\nIntroducir la siguiente fórmula:\n\n\nNDVI Pre-fuego: (\"Banda 4\" - \"Banda 3\") / (\"Banda 4\" + \"Banda 3\")\n\n\nGuardar el resultado como ndvi_pre.tif.\nVisualizar con diferentes paletas de colores.\nRepetir el procedimiento para las siguientes fórmulas:\n\n\nNDVI Post-fuego: (\"Banda 4\" - \"Banda 3\") / (\"Banda 4\" + \"Banda 3\")\nNBR Pre-fuego: (\"Banda 4\" - \"Banda 6\") / (\"Banda 4\" + \"Banda 6\")\nNBR Post-fuego: (\"Banda 10\" - \"Banda 12\") / (\"Banda 10\" + \"Banda 12\")\n\n\nGuardar los resultados como: ndvi_post.tif, nbr_pre.tif y nbr_post.tif.\n\n\n\n4. Cálculo de Severidad del incendio (dNBR)\nUna vez obtenidos los índices NBR, calculamos la diferencia: 1. Abrir Calculadora ráster. 2. Fórmula: \"NBR_pre@1\" - \"NBR_post@1\". 3. Guardar como dnbr.tif. 4. Visualizar con diferentes paletas de colores.\n\n\n5. Enmascaramiento de Agua (Usando SWIR)\nEl agua puede dar valores de severidad falsos. Vamos a crear una máscara donde los valores de la banda SWIR pre-fuego sean bajos:\n\nAbrir Calculadora ráster.\nFórmula para identificar “tierra firme”: \"Banda 5\" &gt; 500 (Esto genera una capa donde 1 es tierra y 0 es agua).\nMultiplicar dnbr por esta máscara para “limpiarlo”: \"dnbr@1\" * (\"Banda 5@1\" &gt; 500)\n\n\n\n6. Clasificación de la severidad\nPara identificar solo las áreas severamente quemadas, necesitamos convertir los valores continuos en categorías discretas para el análisis estadístico:\n\nBuscar en la Caja de herramientas de procesos: Reclasificar por tabla.\nCapa de entrada: dNBR_final.\nEn Tabla de reclasificación, hacer click en los puntos suspensivos y añadir 4 filas:\n\n\n\n\nMínimo\nMáximo\nValor\nCategoría (Info)\n\n\n\n\n-1.5622\n0.1\n1\nNo quemado\n\n\n0.1\n0.27\n2\nSeveridad baja\n\n\n0.27\n0.44\n3\nSeveridad moderada\n\n\n0.44\n1.8005\n4\nSeveridad Alta\n\n\n\n\n\n7. Estimación de Superficie severamente quemada\nPara saber cuántas hectáreas se quemaron:\n\nIr a la Caja de herramientas de procesos.\nBuscar la herramienta Informe de valores únicos de capa ráster.\nSelección la capa reclasificada.\nEl reporte dará el conteo de píxeles por clase.\nCálculo: \\[\\text{Área (ha)} = \\frac{\\text{Número de píxeles} \\times 100 \\text{ m}^2}{10,000}\\] (Recordar que cada píxel de Sentinel-2 mide 10x10 metros)."
+  },
+  {
+    "objectID": "taller_jornadas360.html#parte-2-google-earth-engine",
+    "href": "taller_jornadas360.html#parte-2-google-earth-engine",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Parte 2: Google Earth Engine",
+    "text": "Parte 2: Google Earth Engine\nEsta metodología permite realizar todo el análisis anterior sin descargar un solo byte de datos a la computadora local.\n\nFilosofía: “Traer el algoritmo a los datos”.\nAcceso: El script completo con el filtrado por nubes, composición de medianas y cálculo de índices se encuentra en el siguiente link: https://code.earthengine.google.com/ddfd19fbad81e4ff84df80ebf00df7b7"
+  },
+  {
+    "objectID": "taller_jornadas360.html#parte-3-grass-gis-en-google-colab-foss-scripting",
+    "href": "taller_jornadas360.html#parte-3-grass-gis-en-google-colab-foss-scripting",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)",
+    "text": "Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)\nPara esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de GRASS y reproducir el mismo ejercicio.\nPara abrir la notebook en Google Colab, solo usen la URL de este repositorio como se muestra abajo:\n\n\n\nGoogle Colab"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html",
+    "href": "presentacion_jornadas360.html",
+    "title": "Biología desde el espacio",
+    "section": "",
+    "text": "Investigadora de CONICET en el Instituto Gulich\nFormación: Lic. & Dra. en Biología, Mgter. en Aplicaciones de la Información Espacial\nAplicaciones de SR en ecología de enfermedades\nMiembro del equipo de desarrollo de GRASS; miembro de OSGeo y entusiasta del FOSS4G\n\n https://veroandreo.gitlab.io/"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#un-poco-sobre-mí",
+    "href": "presentacion_jornadas360.html#un-poco-sobre-mí",
+    "title": "Biología desde el espacio",
+    "section": "",
+    "text": "Investigadora de CONICET en el Instituto Gulich\nFormación: Lic. & Dra. en Biología, Mgter. en Aplicaciones de la Información Espacial\nAplicaciones de SR en ecología de enfermedades\nMiembro del equipo de desarrollo de GRASS; miembro de OSGeo y entusiasta del FOSS4G\n\n https://veroandreo.gitlab.io/"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#overview",
+    "href": "presentacion_jornadas360.html#overview",
+    "title": "Biología desde el espacio",
+    "section": "Overview",
+    "text": "Overview\n\nMotivación\nGeografía de la salud\nEcología de las enfermedades\nIntroducción al SR y los SIG\n\n¿Qué es el SR o Teledetección?\n¿Qué es un SIG?\n\n\nSR y ecología de enfermedades\n\nResolución vs escala\n¿Cómo utilizamos el SR?\nEjemplos\n\n\nBrechas, desafíos y oportunidades\nConclusiones\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://sdgs.un.org/goals/goal3\n\n\nLas enfermedades transmitidas por vectores y las zoonosis son responsables de una sexta parte de las enfermedades y discapacidades en todo el mundo. Esta es una de las razones por las que la buena salud y el bienestar se encuentran entre los 17 objetivos de la ONU para un desarrollo sostenible. Más concretamente, el objetivo es acabar con las epidemias de ETD, entre otras enfermedades transmisibles.\n\n\nEnfermedades Tropicales Desatendidas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAhora bien, ¿cuáles son estas ETD y por qué la teledetección y los SIG podrían ser relevante para su estudio? Bueno, como puede ver, la mayoría de estas enfermedades son transmitidas por animales, necesitan un vector para transportar el patógeno del huésped a los humanos o entre humanos. Los animales, especialmente los ectotermos, se ven muy afectados por las condiciones ambientales de una determinada zona… piensen en los mosquitos Aedes aegypti por ejemplo… ¿y qué información se puede extraer más fácilmente de la RS? Sí, la ambiental\n\n\n\n¿Vieron esto alguna vez?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAntes de llegar al núcleo de los usos y aplicaciones de la teledetección hay un par de cosas que sucedieron primero y algunas definiciones que me gustaría compartir… ¿Alguna vez vieron este mapa? Esta suele ser la primer diapo de la primer clase de un curso de SIG, pero también, la primera vez que la asociación entre salud/enfermedad y lugar/espacio fue claramente mapeada."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#geografía-de-la-salud",
+    "href": "presentacion_jornadas360.html#geografía-de-la-salud",
+    "title": "Biología desde el espacio",
+    "section": "Geografía de la Salud",
+    "text": "Geografía de la Salud\n\n\n\n\nSalud ambiental: estudia los peligros ambientales, la evaluación del riesgo ambiental y las repercusiones físicas y psicosociales de la contaminación ambiental en la salud.\n\n\n\nEcología de enfermedades: estudio de las enfermedades y su relación con la distribución espacial de condiciones ambientales, sociales, políticas y económicas.\n\n\n\nPrestación sanitaria y acceso: modelos y patrones espaciales de prestación de asistencia sanitaria y comportamiento de los pacientes.\n\n\n\n\nEste fue el comienzo de lo que se denominó geografía de la salud: la aplicación de información, perspectivas y métodos geográficos al estudio de la salud, la enfermedad y la asistencia sanitaria. Dentro de esta disciplina podríamos identificar 3 campos de estudio: Salud ambiental, Acceso a la salud y Ecología de la enfermedad."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#geografía-de-la-salud-1",
+    "href": "presentacion_jornadas360.html#geografía-de-la-salud-1",
+    "title": "Biología desde el espacio",
+    "section": "Geografía de la Salud",
+    "text": "Geografía de la Salud\n\n\n\n\nSalud ambiental: estudia los peligros ambientales, la evaluación del riesgo ambiental y las repercusiones físicas y psicosociales de la contaminación ambiental en la salud.\n\n\n\nEcología de enfermedades: estudio de las enfermedades y su relación con la distribución espacial de condiciones ambientales, sociales, políticas y económicas.\n\n\n\nPrestación sanitaria y acceso: modelos y patrones espaciales de prestación de asistencia sanitaria y comportamiento de los pacientes.\n\n\n\n\nAunque la RS tiene aplicaciones en todos los campos, me centraré en los relacionados con la ecología de la enfermedad, ya que es donde más experiencia tengo."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#ecología-de-las-enfermedades-i",
+    "href": "presentacion_jornadas360.html#ecología-de-las-enfermedades-i",
+    "title": "Biología desde el espacio",
+    "section": "Ecología de las enfermedades I",
+    "text": "Ecología de las enfermedades I\n\n\n\n\nEl objetivo principal es comprender la influencia de los factores ambientales y predecir cuándo y dónde es más probable que se produzca una enfermedad\n\n\n\ntoma de decisiones, planificación de acciones de prevención, gestión o respuesta, etc."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#ecología-de-las-enfermedades-ii",
+    "href": "presentacion_jornadas360.html#ecología-de-las-enfermedades-ii",
+    "title": "Biología desde el espacio",
+    "section": "Ecología de las enfermedades II",
+    "text": "Ecología de las enfermedades II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLambin et al. (2010)\n\n\nEsta relación con el entorno suele representarse mediante una tríada, la tríada epidemiológica. Para que se produzca una enfermedad (en humanos) necesitamos unas condiciones ambientales adecuadas, un patógeno y unos huéspedes y vectores competentes. Estas relaciones pueden dibujarse de forma un poco más compleja, pero la base es la misma, es decir, el ambiente engloba el clima, las LULCC, la fragmentación del hábitat, el comportamiento humano y todas las relaciones entre ellos. Esto es lo que normalmente intentamos observar con el RS."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#uso-de-sr-en-aplicaciones-de-salud",
+    "href": "presentacion_jornadas360.html#uso-de-sr-en-aplicaciones-de-salud",
+    "title": "Biología desde el espacio",
+    "section": "Uso de SR en aplicaciones de Salud",
+    "text": "Uso de SR en aplicaciones de Salud\n\n\nViana et al. (2017)\n\n\nDe hecho, el uso de la teledetección para aplicaciones de salud pública ha ido en aumento desde 2007 según esta revisión, pero yo diría que empezó incluso antes."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#variables-de-sr-más-utilizadas",
+    "href": "presentacion_jornadas360.html#variables-de-sr-más-utilizadas",
+    "title": "Biología desde el espacio",
+    "section": "Variables de SR más utilizadas",
+    "text": "Variables de SR más utilizadas\n\n\n\n\n\n\n\n\n\n\n\nLST: Temperatura de Superficie Terrestre\n\nPrecipitación: lluvia estimada por radar/microondas\n\nNDVI: Índice de Vegetación (densidad/vigor)\n\nLULC: Uso y Cobertura del Suelo\n\nElevación: modelo digital del terreno (DSM, DEM, DTM)\n\nNDWI: Índice de Agua (humedad/agua superficial)\n\n\n\n\n\nParselia et al. (2019)\n\n\nLas variables más utilizadas en general son: LST, Precipitación, NDVI, Elevación… Esto es para los mosquitos, si pensamos en garrapatas o ratones, por ejemplo, variables de vegetación se utilizan con más frecuencia"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#section",
+    "href": "presentacion_jornadas360.html#section",
+    "title": "Biología desde el espacio",
+    "section": "",
+    "text": "¿Cómo mapeamos estas variables de forma continua? Del termómetro y la libreta de campo, al dato satelital."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#qué-es-el-sensado-remoto",
+    "href": "presentacion_jornadas360.html#qué-es-el-sensado-remoto",
+    "title": "Biología desde el espacio",
+    "section": "¿Qué es el Sensado Remoto?",
+    "text": "¿Qué es el Sensado Remoto?\nEs la obtención de información sobre objetos o fenómenos sin estar en contacto directo con ellos, a través de la detección de la energía electromagnética que emiten o reflejan.\n\n\n\n\n\nEl sensado remoto o teledetección es la ciencia y el arte de obtener información sobre un objeto, área o fenómeno a través del análisis de datos adquiridos por un dispositivo que no está en contacto físico con el objeto. Los satélites, aviones o drones llevan sensores que registran la energía reflejada o emitida por la superficie terrestre.\nUn sistema de sensado remoto tiene cuatro componentes fundamentales: una fuente de energía (generalmente el sol, aunque algunos sistemas como SAR generan su propia), la interacción de esa energía con la superficie (cada tipo de cobertura refleja o emite de forma diferente), el sensor que registra esa energía, y todo el proceso de transmisión y procesamiento de los datos hasta llegar a productos listos para usar."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#el-espectro-electromagnético",
+    "href": "presentacion_jornadas360.html#el-espectro-electromagnético",
+    "title": "Biología desde el espacio",
+    "section": "El espectro electromagnético",
+    "text": "El espectro electromagnético\n\n\n\n\n\n\nEl espectro electromagnético abarca desde los rayos gamma hasta las ondas de radio. Los satélites de observación de la Tierra trabajan principalmente en cuatro regiones: el visible (lo que vemos con nuestros ojos), el infrarrojo cercano (fundamental para estudiar vegetación), el infrarrojo térmico (para medir temperatura superficial) y las microondas (los radares SAR, que pueden atravesar nubes). Cada región tiene ventanas de transmisión atmosférica donde la atmósfera es suficientemente transparente para permitir las mediciones."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#qué-mide-el-sensor",
+    "href": "presentacion_jornadas360.html#qué-mide-el-sensor",
+    "title": "Biología desde el espacio",
+    "section": "¿Qué mide el sensor?",
+    "text": "¿Qué mide el sensor?\nLos sensores miden la energía electromagnética que llega al detector en cada banda:\n\n\n\n\nRadiancia (W·sr⁻¹·m⁻²)\nEnergía que recibe el sensor - incluye efectos atmosféricos\n\n\n\nReflectancia (adimensional, 0-1)\nFracción de luz solar reflejada por la superficie - se obtiene tras aplicar la corrección atmosférica"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#firmas-espectrales",
+    "href": "presentacion_jornadas360.html#firmas-espectrales",
+    "title": "Biología desde el espacio",
+    "section": "Firmas espectrales",
+    "text": "Firmas espectrales\nLa “huella digital” de cada cobertura\n\n\n\n\n\nCada tipo de cobertura terrestre tiene una curva de reflectancia característica según la longitud de onda. La vegetación sana refleja muy poco en el rojo (la clorofila absorbe esa luz para la fotosíntesis) pero mucho en el infrarrojo cercano (la estructura celular de las hojas la refleja). Esta diferencia tan marcada es la base del NDVI. El agua absorbe casi toda la energía en el infrarrojo, por eso aparece oscura en esas bandas. El suelo tiene una reflectancia creciente y más uniforme. La vegetación estresada (seca, enferma) pierde ese salto en el NIR, lo que nos permite detectar problemas antes de que sean visibles a simple vista."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#variables-derivadas-del-sr",
+    "href": "presentacion_jornadas360.html#variables-derivadas-del-sr",
+    "title": "Biología desde el espacio",
+    "section": "Variables derivadas del SR",
+    "text": "Variables derivadas del SR\n\n\n\n\nÍndices espectrales\nCombinaciones de bandas de reflectancia\n(NIR − Rojo) / (NIR + Rojo)\n\nNDVI → vegetación\nNDWI → agua / humedad\n\nNDBI → área construida\n\n\n\n\nVariables físicas\nMagnitudes reales derivadas con modelos\n\nLST → temperatura superficial (°C/K)\nAlbedo → fracción reflejada total\nLAI → índice de área foliar\nPrecipitación (microondas)\n\n\n\n\nProductos temáticos\nClasificaciones e interpretaciones\n\nLULC → uso y cobertura del suelo\nMapas de vegetación\nDetección de cambios (LULCC)\nMapas de riesgo (con SIG)\n\n\n\n\n\nEsta distinción es importante: los índices espectrales son operaciones directas sobre las bandas de reflectancia, adimensionales. Las variables físicas requieren modelos más complejos y tienen unidades reales. Los productos temáticos son el resultado de clasificar o interpretar las imágenes, y suelen combinar varias fuentes de información."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#qué-es-un-sig",
+    "href": "presentacion_jornadas360.html#qué-es-un-sig",
+    "title": "Biología desde el espacio",
+    "section": "¿Qué es un SIG?",
+    "text": "¿Qué es un SIG?\n\nUn Sistema de Información Geográfica (SIG) es un sistema que permite capturar, almacenar, analizar y visualizar datos con una componente espacial:\n\n\n\nSR → cómo obtenemos los datos\n\nImágenes satelitales\nVariables ambientales\nTemperatura, vegetación, lluvia…\n\n\n\n\nSIG → cómo los integramos y analizamos\n\nCombinamos capas de información\nDatos de casos de enfermedad + variables ambientales\nGeneramos mapas de riesgo\n\n\n\n\nEl SIG es el “laboratorio espacial” donde integramos toda la información. Puede pensarse como una versión muy poderosa de un mapa digital donde podemos superponer capas de información muy distintas: imágenes satelitales, datos de casos de enfermedades, límites administrativos, redes viales, etc., y analizarlas en conjunto para encontrar patrones o modelar riesgos."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#section-1",
+    "href": "presentacion_jornadas360.html#section-1",
+    "title": "Biología desde el espacio",
+    "section": "",
+    "text": "¿Y cómo elegir qué datos usar para mi problema?"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#el-problema-de-la-resolución",
+    "href": "presentacion_jornadas360.html#el-problema-de-la-resolución",
+    "title": "Biología desde el espacio",
+    "section": "El problema de la resolución",
+    "text": "El problema de la resolución\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResolución\nPregunta\nEjemplo\n\n\n\nEspacial\n¿Cuánto mide cada píxel?\nLandsat: 30m; Sentinel-2: 10m\n\n\nTemporal\n¿Cada cuánto pasa el satélite?\nMODIS: diario; Landsat: 16 días\n\n\nEspectral\n¿Cuántas bandas captura?\nSentinel-2: 13 bandas\n\n\nRadiométrica\n¿Cuántos niveles de gris distingue?\n8 bits = 256 niveles\n\n\n\n\n\n\n\nKasampalis et al. (2018)\n\n\nAntes de seleccionar qué datos usar, debemos entender que los satélites tienen cuatro tipos de resolución que están en tensión entre sí. Un satélite con píxeles muy pequeños (alta resolución espacial) suele pasar con menos frecuencia y tener menos bandas. Por eso para estudiar dengue en toda una ciudad usamos datos distintos que para detectar un nido de garrapatas."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#el-problema-de-la-escala",
+    "href": "presentacion_jornadas360.html#el-problema-de-la-escala",
+    "title": "Biología desde el espacio",
+    "section": "El problema de la escala",
+    "text": "El problema de la escala\n\n\n\n\n\n\nPearson and Dawson (2003)\n\n\nPara decidir qué conjunto de datos de RS se adapta mejor a nuestro problema también debemos pensar en la escala a la que operan las variables. Esto muestra, por ejemplo, la relación de las var amb y la distribución de las especies según la escala."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#resolución-y-escala",
+    "href": "presentacion_jornadas360.html#resolución-y-escala",
+    "title": "Biología desde el espacio",
+    "section": "Resolución y escala",
+    "text": "Resolución y escala\n\n\nTaxonomía\nPlantas\nAnimales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeitão and Santos (2019), Lechner et al. (2020), Rumiano et al. (2020)\n\n\nTambién si estudiamos otros fenómenos biológicos o ecológicos debemos tener en cuenta la escala y pensar qué tipo de producto de RS sería el más adecuado."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#cómo-aplicar-sr-en-ecología-de-enfermedades",
+    "href": "presentacion_jornadas360.html#cómo-aplicar-sr-en-ecología-de-enfermedades",
+    "title": "Biología desde el espacio",
+    "section": "¿Cómo aplicar SR en ecología de enfermedades?",
+    "text": "¿Cómo aplicar SR en ecología de enfermedades?\n\n\n\n\nAproximación general en ecología\n\n\n\n\n\n\n\n\n\n\n\n\nVolviendo a la ecología de las enfermedades, ¿para qué utilizamos la RS? - Para cartografiar las variables de respuesta, es decir, la presencia o abundancia de especies, las infecciones, los casos de enfermedad - Para cartografiar las variables predictoras - Para validar las predicciones"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#section-2",
+    "href": "presentacion_jornadas360.html#section-2",
+    "title": "Biología desde el espacio",
+    "section": "",
+    "text": "Veamos algunos casos reales…\n\n\nDetección y mapeo de especies\n\n\nImágenes de muy alta resolución espacial (VHR)\nDatos hiperespectrales (especialmente para especies vegetales)\nRecuento directo e indirecto (CV, ML, DL)\n\n\n\n\n\n(a) Pingüinos. (b) Elefantes\n\n\n\n\nNidos de gerbos\n\n\n\n\nWang et al. (2019)\n\nDetección y mapeo de especies\n\n\n\nInfección en pinos\n\n\n\n\n\nMeng et al. (2022)\n\nSeries temporales de productos satelitales\n\nReconstrucción temporal y espacial MODIS LST (LWR & splines)\nEstimación de índices temporales (GRASS)\nDetección de agrupaciones espaciales y temporales de condiciones favorables para la aparición de casos de WNF\n\n\n\n\n\n\n\n\n\n\n\nMetz et al. (2017), Andreo et al. (2018)\n\nRiesgo ambiental de Dengue\n\nEstimación del número de periodos de incubación extrínsecos (EIP) que el virus podría completar (MODIS LST); cuanto &gt; sea este número, &gt; será el riesgo ambiental\n\n\n\nGeoportal de CONAE\n\n\nPorcasi et al. (2012)\n\n\n\n\nSDM y SIG para mapear el riesgo de SPH\n\n\n\n\n\n\n\n\n\nCombinamos un mapa de probabilidad del reservorio con uno de los casos humanos para determinar los niveles de riesgo de transmisión\n\n\n\n\n\nAndreo et al. (2011), Andreo et al. (2014)\n\nLeishmaniasis Cutánea & LULCC\n\n\n\n\n\n\nMapa de cambio\n\n\n\n\n\nMapa predictivo de LC\n\n\n\n\nAndreo et al. (2022), i.cva\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrones temporales en el espacio\n\nPatrones temporales y espaciales de Aedes aegypty en Córdoba\nAsociación con variables derivadas del análisis de imágenes Sentinel 2 para predecir patrones temporales en toda la ciudad.\n\n\n\n\n\n\nAndreo et al. (2021)\n\nCaracterización ambiental urbana para la distribución de ovitrampas\n\n\n\nClasificación de imágenes VHR basada en objetos\nMétricas de paisaje para polígonos\nAgrupación para encontrar grupos de polígonos similares\nDistribución estratificada de ovitrampas\n\n\n Mgter. Carla Rodriguez Gonzalez.\n\n\n\n\n\n\nGrippa et al. (2017), Georganos et al. (2018), Rodriguez Gonzalez et al. (2023)\n\nSistema de predicción basado en dinámica poblacional y pronóstico meteorológico\nhttps://aplicaciones.gulich.unc.edu.ar/app/\n\n\n\n\n Desarrollo de un SAT para dengue. Doctorando, Tomás San Miguel.\n\n\n\n\n\n\n\n\n\nAguirre et al. (2021)\n\n\nLULCC y brotes de enfermedades\n\n\n\n\nPérdida de bosque\n\n\n\n\nLeishmaniasis visceral\n\n\n\nLeishmaniasis cutánea\n\n\n\n\nPICT 2021 - GRF TI - 00372\n\nAcceso geográfico a la salud\n\n\n\n\n\n\n\n Doctoranda, Carla Rodriguez Gonzalez.\n\n\n\n\nTiempo de viaje a centros de salud\n\n\n\nIncidencia de asma y calidad del aire\n\n\n\n\n Doctorando, Abraham Coiman."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#otros-proyectos-en-desarrollo",
+    "href": "presentacion_jornadas360.html#otros-proyectos-en-desarrollo",
+    "title": "Biología desde el espacio",
+    "section": "Otros proyectos en desarrollo",
+    "text": "Otros proyectos en desarrollo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistribución de reservorios de Hantavirus en el cono sur. Dr. Juan Diego Pinotti & Dra. Verónica Andreo.\n\n\n\n\n\n\n\n\n\nEfectos de las olas de calor sobre la salud. Dra. Anabella Ferral & Dra. Ximena Porcasi."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#brechas-y-desafíos-del-sr",
+    "href": "presentacion_jornadas360.html#brechas-y-desafíos-del-sr",
+    "title": "Biología desde el espacio",
+    "section": "Brechas y desafíos del SR",
+    "text": "Brechas y desafíos del SR\n\n\n\nCompromiso entre las diferentes resoluciones, el problema estudiado, los datos y los métodos disponibles.\n\nHuecos en SR óptico: nubes, sombras (interpolaciones espaciales y temporales)\n\nCorrecciones si los datos de alto nivel no son adecuados\n\nAcceso limitado a VHR, LiDAR e hiperespectrales (todavía difíciles de escalar).\n\nInversión y desarrollo de capacidades: grandes volúmenes de datos vs ancho de banda, almacenamiento y capacidad de cálculo limitados (computación en la nube, paralelización).\n\n\nLos datos de campo siempre serán necesarios! :)"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#desafíos-y-brechas---ecología-y-salud",
+    "href": "presentacion_jornadas360.html#desafíos-y-brechas---ecología-y-salud",
+    "title": "Biología desde el espacio",
+    "section": "Desafíos y brechas - Ecología y Salud",
+    "text": "Desafíos y brechas - Ecología y Salud\n\n\nFalta de información de línea de base de distribución de hospedadores, vectores, infección\nActualización y digitalización de casos de enfermedad y datos de intervención, aún faltan datos en gran parte del mundo\n\nArmonización de registros en diferentes niveles administrativos\nFacilitar el acceso a datos de salud (agregados)\nDecisión política y asignación de recursos"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#oportunidades-low-hanging-fruits",
+    "href": "presentacion_jornadas360.html#oportunidades-low-hanging-fruits",
+    "title": "Biología desde el espacio",
+    "section": "Oportunidades: low hanging fruits?",
+    "text": "Oportunidades: low hanging fruits?\n\nDatos SAR para evitar las nubes, ej., SAOCOM para estimar la humedad del suelo\nDatos LiDAR abiertos, ej., GEDI a bordo de la ISS\nSoluciones de código abierto en la nube openEO.cloud, actinia, otros?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTorresani et al. (2023)"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#hyper-spectral-hype",
+    "href": "presentacion_jornadas360.html#hyper-spectral-hype",
+    "title": "Biología desde el espacio",
+    "section": "Hyper-spectral hype \n",
+    "text": "Hyper-spectral hype \n\n\nVarias misiones recientes y futuras para datos hiperespectrales: PRISMA (recientemente abierta), EnMap, CHIME, TIRS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttp://database.eohandbook.com/database/instrumenttable.aspx,"
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#drones-con-cámaras-especializadas",
+    "href": "presentacion_jornadas360.html#drones-con-cámaras-especializadas",
+    "title": "Biología desde el espacio",
+    "section": "Drones con cámaras especializadas",
+    "text": "Drones con cámaras especializadas\n\nVehículos aéreos no tripulados más baratos con distintos tipos de cámaras.\nEj., sensores térmicos multiespectrales o hiperespectrales para detectar y contar animales en lugares inaccesibles.\n\n\n\nCarrasco-Escobar et al. (2022)\n\n\n\n\n\n\n\nAsí pues, está claro que no está todo hecho, y que la RS puede contribuir en gran medida a alcanzar los ODS en general y el ODS 3 en particular, sobre todo si tenemos en cuenta que para la buena salud y el bienestar humanos, la salud medioambiental y la salud animal también son condiciones necesarias."
+  },
+  {
+    "objectID": "presentacion_jornadas360.html#referencias",
+    "href": "presentacion_jornadas360.html#referencias",
+    "title": "Biología desde el espacio",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nAguirre, E., Andreo, V., Porcasi, X., Lopez, L., Guzman, C., González, P., and Scavuzzo, C. M. (2021), “Implementation of a proactive system to monitor Aedes aegypti populations using open access historical and forecasted meteorological data,” Ecological Informatics, 64, 101351. https://doi.org/10.1016/j.ecoinf.2021.101351.\n\n\nAndreo, V., Glass, G., Shields, T., Provensal, C., and Polop, J. (2011), “Modeling Potential Distribution of Oligoryzomys longicaudatus, the Andes Virus (Genus: Hantavirus) Reservoir, in Argentina,” EcoHealth, 8, 332–348.\n\n\nAndreo, V., Izquierdo-Verdiguier, E., Zurita-Milla, R., Rosa, R., Rizzoli, A., and Papa, A. (2018), “Identifying Favorable Spatio-Temporal Conditions for West Nile Virus Outbreaks by Co-Clustering of Modis LST Indices Time Series,” in IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, Valencia: IEEE, pp. 4670–4673. https://doi.org/10.1109/IGARSS.2018.8519542.\n\n\nAndreo, V., Neteler, M., Rocchini, D., Provensal, C., Levis, S., Porcasi, X., Rizzoli, A., Lanfri, M., Scavuzzo, M., Pini, N., Enria, D., and Polop, J. (2014), “Estimating Hantavirus Risk in Southern Argentina: A GIS-Based Approach Combining Human Cases and Host Distribution,” Viruses, 6, 201–222. https://doi.org/10.3390/v6010201.\n\n\nAndreo, V., Porcasi, X., Guzman, C., Lopez, L., and Scavuzzo, C. M. (2021), “Spatial Distribution of Aedes aegypti Oviposition Temporal Patterns and Their Relationship with Environment and Dengue Incidence,” Insects, 12, 919. https://doi.org/10.3390/insects12100919.\n\n\nAndreo, V., Rosa, J., Ramos, K., and Salomón, O. D. (2022), “Ecological characterization of a cutaneous leishmaniasis outbreak through remotely sensed land cover changes,” Geospatial Health, 17. https://doi.org/10.4081/gh.2022.1033.\n\n\nCarrasco-Escobar, G., Moreno, M., Fornace, K., Herrera-Varela, M., Manrique, E., and Conn, J. E. (2022), “The use of drones for mosquito surveillance and control,” Parasites & Vectors, 15, 473. https://doi.org/10.1186/s13071-022-05580-5.\n\n\nGeorganos, S., Grippa, T., Lennert, M., Vanhuysse, S., and Johnson, B. A. (2018), “Scale Matters: Spatially Partitioned Unsupervised Segmentation Parameter Optimization for Large and Heterogeneous Satellite Images,” 23.\n\n\nGrippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N., Wolff, E., Grippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N., and Wolff, E. (2017), “An Open-Source Semi-Automated Processing Chain for Urban Object-Based Classification,” Remote Sensing, 9, 358. https://doi.org/10.3390/rs9040358.\n\n\nHamesse, C., Andreo, V., Rodriguez Gonzalez, C., Beumier, C., Rubio, J., Porcasi, X., Lopez, L., Guzman, C., Haelterman, R., Shimoni, M., and Scavuzzo, C. M. (2023), “Ovitrap Monitor - Online application for counting mosquito eggs and visualisation toolbox in support of health services,” Ecological Informatics, 75, 102105. https://doi.org/10.1016/j.ecoinf.2023.102105.\n\n\nKasampalis, D. A., Alexandridis, T. K., Deva, C., Challinor, A., Moshou, D., and Zalidis, G. (2018), “Contribution of remote sensing on crop models: A review,” Journal of Imaging, 4, 52. https://doi.org/10.3390/jimaging4040052.\n\n\nLambin, E. F., Tran, A., Vanwambeke, S. O., Linard, C., and Soti, V. (2010), “Pathogenic landscapes: Interactions between land, people, disease vectors, and their animal hosts,” International Journal of Health Geographics, 9, 54. https://doi.org/10.1186/1476-072X-9-54.\n\n\nLechner, A. M., Foody, G. M., and Boyd, D. S. (2020), “Applications in Remote Sensing to Forest Ecology and Management,” One Earth, 2, 405–412. https://doi.org/10.1016/j.oneear.2020.05.001.\n\n\nLeitão, P. J., and Santos, M. J. (2019), “Improving models of species ecological niches: A remote sensing overview,” Frontiers in Ecology and Evolution, 7. https://doi.org/10.3389/fevo.2019.00009.\n\n\nMeng, R., Gao, R., Zhao, F., Huang, C., Sun, R., Lv, Z., and Huang, Z. (2022), “Landsat-based monitoring of southern pine beetle infestation severity and severity change in a temperate mixed forest,” Remote Sensing of Environment, 269, 112847. https://doi.org/10.1016/j.rse.2021.112847.\n\n\nMetz, M., Andreo, V., and Neteler, M. (2017), “A New Fully Gap-Free Time Series of Land Surface Temperature from MODIS LST Data,” Remote Sensing, 9, 1333. https://doi.org/10.3390/rs9121333.\n\n\nParselia, E., Kontoes, C., Tsouni, A., Hadjichristodoulou, C., Kioutsioukis, I., Magiorkinis, G., and Stilianakis, N. I. (2019), “Satellite Earth Observation Data in Epidemiological Modeling of Malaria, Dengue and West Nile Virus: A Scoping Review,” Remote Sensing, 11, 1862. https://doi.org/10.3390/rs11161862.\n\n\nPearson, R. G., and Dawson, T. P. (2003), “Predicting the impacts of climate change on the distribution of species: Are bioclimate envelope models useful?” Global Ecology and Biogeography, 12, 361–371. https://doi.org/10.1046/j.1466-822X.2003.00042.x.\n\n\nPorcasi, X., Rotela, C. H., Introini, M. V., Frutos, N., Lanfri, S., Peralta, G., De Elia, E. A., Lanfri, M. A., and Scavuzzo, C. M. (2012), “An operative dengue risk stratification system in Argentina based on geospatial technology,” Geospatial Health, 6, S31–S42. https://doi.org/10.4081/gh.2012.120.\n\n\nRodriguez Gonzalez, C., Guzman, C., and Andreo, V. (2023), “Using VHR satellite imagery, OBIA and landscape metrics to improve mosquito surveillance in urban areas,” Ecological Informatics, 77, 102221. https://doi.org/10.1016/j.ecoinf.2023.102221.\n\n\nRumiano, F., Wielgus, E., Miguel, E., Chamaillé-Jammes, S., Valls-Fox, H., Cornélis, D., Garine-Wichatitsky, M. D., Fritz, H., Caron, A., and Tran, A. (2020), “Remote sensing of environmental drivers influencing the movement ecology of sympatric wild and domestic ungulates in semi-arid savannas, a review,” Remote Sensing, 12. https://doi.org/10.3390/rs12193218.\n\n\nTorresani, M., Rocchini, D., Alberti, A., Moudrý, V., Heym, M., Thouverai, E., Kacic, P., and Tomelleri, E. (2023), “LiDAR GEDI derived tree canopy height heterogeneity reveals patterns of biodiversity in forest ecosystems,” Ecological Informatics, 102082. https://doi.org/10.1016/j.ecoinf.2023.102082.\n\n\nViana, J., Santos, J. V., Neiva, R. M., Souza, J., Duarte, L., Teodoro, A. C., and Freitas, A. (2017), “Remote Sensing in Human Health: A 10-Year Bibliometric Analysis,” Remote Sensing, 9, 1225. https://doi.org/10.3390/rs9121225.\n\n\nWang, D., Shao, Q., and Yue, H. (2019), “Surveying Wild Animals from Satellites, Manned Aircraft and Unmanned Aerial Systems (UASs): A Review,” Remote Sensing, 11, 1308. https://doi.org/10.3390/rs11111308."
+  },
+  {
+    "objectID": "taller_jornadas360.html#datos",
+    "href": "taller_jornadas360.html#datos",
+    "title": "Análisis de Severidad de Incendios y estimación de área quemada",
+    "section": "Datos",
+    "text": "Datos\nLos datos están en una carpeta de Google Drive (link). Es necesario hacer una copia de la misma en sus drives personales y descargar desde allí para la primera actividad. En la tercera parte los vamos a leer directamente de sus drives."
   }
 ]

@@ -15,6 +15,15 @@ Realizaremos el mismo análisis técnico utilizando **tres metodologías distint
 2.  **Google Earth Engine (GEE - Cloud Computing):** Procesamiento masivo en la nube. Permite analizar petabytes de datos sin descargarlos. Es una herramienta potente y gratuita para fines académicos, aunque su infraestructura es de código cerrado.
 3.  **GRASS GIS en Google Colab (Open Source & Scripting):** Representa la filosofía del software libre y de código abierto (FOSS). Utilizaremos el motor de procesamiento de [GRASS](https://grass.osgeo.org/) dentro de un entorno de Python, garantizando la reproducibilidad científica total del análisis.
 
+
+## Datos
+
+Los datos están en una carpeta de Google Drive 
+([link](https://drive.google.com/drive/folders/1vAlX7hSPWs7J_LaUtgW5V1Kp4D7aogg3?usp=sharing)). 
+Es necesario hacer una copia de la misma en sus drives personales
+y descargar desde allí para la primera actividad. 
+En la tercera parte los vamos a leer directamente de sus drives.
+
 ---
 
 ## Parte 1: Tutorial en QGIS (Software de Escritorio)
@@ -136,15 +145,17 @@ Para saber cuántas hectáreas se quemaron:
 Esta metodología permite realizar todo el análisis anterior sin descargar un solo byte de datos a la computadora local.
 
 * **Filosofía:** "Traer el algoritmo a los datos".
-* **Acceso:** El script completo con el filtrado por nubes, composición de medianas y cálculo de índices se encuentra en el siguiente link: https://code.earthengine.google.com/ddfd19fbad81e4ff84df80ebf00df7b7
+* **Acceso:** El script completo con el filtrado por nubes, composición de medianas y cálculo de índices se encuentra en el siguiente link: <https://code.earthengine.google.com/ddfd19fbad81e4ff84df80ebf00df7b7>
 
 
 ---
 
 ## Parte 3: GRASS GIS en Google Colab (FOSS & Scripting)
 
-Para esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de **GRASS**. Esto nos permite procesar datos de manera automatizada y reproducible.
+Para esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de **GRASS** y reproducir el mismo ejercicio. 
 
-Copia este bloque en un cuaderno de **Google Colab**:
+Para abrir la notebook en [Google Colab](https://colab.research.google.com/), solo usen la URL 
+de este repositorio como se muestra abajo:
 
+![Google Colab](assets/img/open_notebook_colab.png)
 
