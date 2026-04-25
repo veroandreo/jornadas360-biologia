@@ -63,15 +63,16 @@ Al abrir los archivos en QGIS, el programa asigna números a las bandas.
 
 1. Click derecho en la capa pre fuego -> **Propiedades** -> **Simbología**.
 2. Tipo de renderización: **Color multibanda**.
-3. Asignar: Rojo = `Banda 3` (B4_pre), Verde = `Banda 2` (B3_pre), Azul = `Banda 1` (B2_pre).
+3. Asignar: Rojo = `S2_PNAlerces_pre@3` (RED), Verde = `S2_PNAlerces_pre@2` (GREEN), Azul = `S2_PNAlerces_pre@1` (BLUE).
 4. Click en **Aceptar**.
 
 #### Falso Color SWIR (Post-fuego)
 
 Para resaltar el área quemada en la imagen posterior al incendio:
+
 1. Click derecho en la capa -> **Simbología**.
 2. Tipo de renderización: **Color multibanda**.
-3. Asignar: Rojo = `Banda 12` (B12 post), Verde = `Banda 10` (B8 post), Azul = `Banda 9` (B4 post).
+3. Asignar: Rojo = `S2_PNAlerces_post@6` (SWIR), Verde = `S2_PNAlerces_post@4` (NIR), Azul = `S2_PNAlerces_post@3` (RED).
 4. Click en **Aceptar**.
 
 
@@ -79,21 +80,22 @@ Para resaltar el área quemada en la imagen posterior al incendio:
 
 1. Ir a **Ráster > Calculadora ráster**.
 2. Introducir la siguiente fórmula:
-  * **NDVI Pre-fuego:** `("Banda 4" - "Banda 3") / ("Banda 4" + "Banda 3")`
+  * **NDVI Pre-fuego:** `("S2_PNAlerces_pre@4" - "S2_PNAlerces_pre@3") / ("S2_PNAlerces_pre@4" + "S2_PNAlerces_pre@3")`
 3. Guardar el resultado como `ndvi_pre.tif`.
 4. Visualizar con diferentes paletas de colores.
 5. Repetir el procedimiento para las siguientes fórmulas:
-  * **NDVI Post-fuego:** `("Banda 4" - "Banda 3") / ("Banda 4" + "Banda 3")`
-  * **NBR Pre-fuego:** `("Banda 4" - "Banda 6") / ("Banda 4" + "Banda 6")`
-  * **NBR Post-fuego:** `("Banda 10" - "Banda 12") / ("Banda 10" + "Banda 12")`
+  * **NDVI Post-fuego:** `("S2_PNAlerces_post@4" - "S2_PNAlerces_post@3") / ("S2_PNAlerces_post@4" + "S2_PNAlerces_post@3")`
+  * **NBR Pre-fuego:** `("S2_PNAlerces_pre@4" - "S2_PNAlerces_pre@6") / ("S2_PNAlerces_pre@4" + "S2_PNAlerces_pre@6")`
+  * **NBR Post-fuego:** `("S2_PNAlerces_post@4" - "S2_PNAlerces_post@6") / ("S2_PNAlerces_post@4" + "S2_PNAlerces_post@6")`
 6. Guardar los resultados como: `ndvi_post.tif`, `nbr_pre.tif` y `nbr_post.tif`.
 
 
 ### 4. Cálculo de Severidad del incendio (dNBR)
 
 Una vez obtenidos los índices NBR, calculamos la diferencia:
+
 1. Abrir Calculadora ráster.
-2. Fórmula: `"NBR_pre@1" - "NBR_post@1"`.
+2. Fórmula: `"nbr_pre@1" - "nbr_post@1"`.
 3. Guardar como `dnbr.tif`.
 4. Visualizar con diferentes paletas de colores.
 
@@ -104,10 +106,11 @@ El agua puede dar valores de severidad falsos. Vamos a crear una máscara donde 
 
 1. Abrir Calculadora ráster.
 2. Fórmula para identificar "tierra firme":
-   `"Banda 5" > 500`
+   `"S2_PNAlerces_pre@5" > 500`
    *(Esto genera una capa donde 1 es tierra y 0 es agua)*.
 3. Multiplicar `dnbr` por esta máscara para "limpiarlo":
-   `"dnbr@1" * ("Banda 5@1" > 500)`
+   `"dnbr@1" * ("S2_PNAlerces_pre@5" > 500)`
+4. Guardar el resultado como: `dnbr_masked.tif`
 
 
 ### 6. Clasificación de la severidad
@@ -115,7 +118,7 @@ El agua puede dar valores de severidad falsos. Vamos a crear una máscara donde 
 Para identificar solo las áreas **severamente quemadas**, necesitamos convertir los valores continuos en categorías discretas para el análisis estadístico:
 
 1.  Buscar en la Caja de herramientas de procesos: **Reclasificar por tabla**.
-2.  Capa de entrada: `dNBR_final`.
+2.  Capa de entrada: `dnbr_masked`.
 3.  En **Tabla de reclasificación**, hacer click en los puntos suspensivos y añadir 4 filas:
 
 | Mínimo | Máximo | Valor | Categoría (Info) |
@@ -132,7 +135,7 @@ Para saber cuántas hectáreas se quemaron:
 
 1. Ir a la **Caja de herramientas de procesos**.
 2. Buscar la herramienta **Informe de valores únicos de capa ráster**.
-3. Selección la capa reclasificada.
+3. Seleccionar la capa reclasificada.
 4. El reporte dará el conteo de píxeles por clase. 
 5. **Cálculo:** $$\text{Área (ha)} = \frac{\text{Número de píxeles} \times 100 \text{ m}^2}{10,000}$$
    *(Recordar que cada píxel de Sentinel-2 mide 10x10 metros)*.
@@ -155,7 +158,7 @@ Esta metodología permite realizar todo el análisis anterior sin descargar un s
 Para esta sección, utilizaremos un cuaderno de Python (Notebook) para ejecutar comandos de **GRASS** y reproducir el mismo ejercicio. 
 
 Para abrir la notebook en [Google Colab](https://colab.research.google.com/), solo usen la URL 
-de este repositorio como se muestra abajo:
+de [este repositorio](https://github.com/veroandreo/jornadas360-biologia) como se muestra abajo:
 
-![Google Colab](assets/img/open_notebook_colab.png)
+![](assets/img/open_notebook_colab.png)
 
